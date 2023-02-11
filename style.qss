@@ -1,0 +1,143 @@
+/*
+Основные цвета:
+https://coolors.co/80bfff-85c2ff-99ccff-add6ff-f2f2f2-e0e0e0-ebebeb-ffffff-000000-808080
+
+Заголовки:
+https://coolors.co/80bfff-d6ebff-cc4747-edbfbf-60cc47-d5f2cf
+
+*/
+
+QWidget {
+    background-color: #F2F2F2;
+    font-family: "Helvetica";
+}
+
+QPushButton#context-button {
+    border-radius: 15px;
+    background-color: #85c2ff;
+    border: 1px solid #CCCCCC;
+    color: #555555;
+        width:120px;
+        margin: 20px;
+    font-size: 14px;
+        text-align:center;
+    height: 20px;
+    margin-bottom: 10px;
+    padding: 4px 6px;
+        text-decoration:none;
+}
+
+QPushButton#context-button:hover {
+border-color: rgba(82, 168, 236, 0.8);
+   outline: 0 none;
+    background-color: #99ccff;
+}
+
+QPushButton#context-button:pressed {
+    background-color: #add6ff;
+}
+
+QPushButton#arrow {
+    background-color: transparent;
+}
+
+QLabel#letter {
+    color: black;
+    font-weight: bold;
+}
+
+QPushButton#back-button {
+    background-color: #F2F2F2;
+    border-radius: 15px;
+    font-size: 21pt;
+    font-weight: bold;
+}
+
+QPushButton#back-button:hover {
+    background-color: #e0e0e0;
+}
+
+QPushButton#back-button:pressed {
+    background-color: #ebebeb;
+}
+
+QPushButton#back-button:disabled {
+    color: #808080;
+    font-weight: normal;
+}
+
+QLabel#word {
+    color: black;
+    font-family: "Helvetica";
+}
+
+/*QTableWidget::item {
+	border-style: none;
+    border: 1px solid rgb(0,0,0);
+}*/
+QHeaderView::section
+{
+    background-color: #85c2ff;
+    padding: 4px;
+    /*font-size: 14pt;*/
+    border-style: none;
+    color: #000000;
+    border-bottom: 1px solid #000000;
+    border-right: 1px solid #000000;
+}
+
+QHeaderView::section:horizontal
+{
+    border-top: 1px solid #fffff8;
+}
+
+QHeaderView::section:vertical
+{
+    border-left: 1px solid #fffff8;
+}
+
+QHeaderView::section
+{
+    background-color: #FCFCFC;
+    padding: 4px;
+    /*font: italic "Times New Roman";*/
+    border-style: none;
+    border-bottom: 1px solid #BCBCBC;
+    border-right: 1px solid  #BCBCBC;
+}
+
+QHeaderView::section:checked
+{
+    background-color: #009507;
+    font: bold italic;
+}
+
+QTableWidget
+{
+    gridline-color: #BCBCBC;
+    font-size: 12pt;
+    /*font: bold italic "Times New Roman";*/
+}
+
+QTableWidget QTableCornerButton::section
+{
+    background-color: #FCFCFC;
+    border: 1px solid #BCBCBC;
+}
+
+QTableWidget::item:selected
+{
+    selection-background-color: #E6FFBF;
+    selection-color:black;
+}
+
+QTableWidget::item:hover
+{
+    background-color: #C8EDFF;
+    selection-color:black;
+}
+
+QLineEdit
+{
+    color: gray;
+}

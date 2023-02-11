@@ -1,0 +1,6688 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Syllables</class>
+ <widget class="QWidget" name="Syllables">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1440</width>
+    <height>790</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Склады</string>
+  </property>
+  <widget class="QPushButton" name="syl_u">
+   <property name="geometry">
+    <rect>
+     <x>39</x>
+     <y>78</y>
+     <width>41</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normalon>images/syllables/u.png</normalon>
+    </iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>40</width>
+     <height>40</height>
+    </size>
+   </property>
+   <attribute name="buttonGroup">
+    <string notr="true">all_syllables</string>
+   </attribute>
+  </widget>
+  <widget class="QPushButton" name="syl_o">
+   <property name="geometry">
+    <rect>
+     <x>39</x>
+     <y>118</y>
+     <width>41</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normalon>images/syllables/o.png</normalon>
+    </iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>40</width>
+     <height>40</height>
+    </size>
+   </property>
+   <attribute name="buttonGroup">
+    <string notr="true">all_syllables</string>
+   </attribute>
+  </widget>
+  <widget class="QPushButton" name="syl_a">
+   <property name="geometry">
+    <rect>
+     <x>39</x>
+     <y>158</y>
+     <width>41</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normalon>images/syllables/a.png</normalon>
+    </iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>40</width>
+     <height>40</height>
+    </size>
+   </property>
+   <attribute name="buttonGroup">
+    <string notr="true">all_syllables</string>
+   </attribute>
+  </widget>
+  <widget class="QPushButton" name="syl_e">
+   <property name="geometry">
+    <rect>
+     <x>39</x>
+     <y>199</y>
+     <width>41</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normalon>images/syllables/e.png</normalon>
+    </iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>40</width>
+     <height>40</height>
+    </size>
+   </property>
+   <attribute name="buttonGroup">
+    <string notr="true">all_syllables</string>
+   </attribute>
+  </widget>
+  <widget class="QPushButton" name="syl_y">
+   <property name="geometry">
+    <rect>
+     <x>39</x>
+     <y>239</y>
+     <width>41</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normalon>images/syllables/y.png</normalon>
+    </iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>40</width>
+     <height>40</height>
+    </size>
+   </property>
+   <attribute name="buttonGroup">
+    <string notr="true">all_syllables</string>
+   </attribute>
+  </widget>
+  <widget class="QPushButton" name="syl_yu">
+   <property name="geometry">
+    <rect>
+     <x>79</x>
+     <y>81</y>
+     <width>36</width>
+     <height>36</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normalon>images/syllables/yu.png</normalon>
+    </iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>34</width>
+     <height>34</height>
+    </size>
+   </property>
+   <attribute name="buttonGroup">
+    <string notr="true">all_syllables</string>
+   </attribute>
+  </widget>
+  <widget class="QPushButton" name="syl_yo">
+   <property name="geometry">
+    <rect>
+     <x>79</x>
+     <y>120</y>
+     <width>36</width>
+     <height>36</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normalon>images/syllables/yo.png</normalon>
+    </iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>34</width>
+     <height>34</height>
+    </size>
+   </property>
+   <attribute name="buttonGroup">
+    <string notr="true">all_syllables</string>
+   </attribute>
+  </widget>
+  <widget class="QPushButton" name="syl_ya">
+   <property name="geometry">
+    <rect>
+     <x>79</x>
+     <y>162</y>
+     <width>36</width>
+     <height>36</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normalon>images/syllables/ya.png</normalon>
+    </iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>34</width>
+     <height>34</height>
+    </size>
+   </property>
+   <attribute name="buttonGroup">
+    <string notr="true">all_syllables</string>
+   </attribute>
+  </widget>
+  <widget class="QPushButton" name="syl_ye">
+   <property name="geometry">
+    <rect>
+     <x>79</x>
+     <y>202</y>
+     <width>36</width>
+     <height>36</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normalon>images/syllables/ye.png</normalon>
+    </iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>34</width>
+     <height>34</height>
+    </size>
+   </property>
+   <attribute name="buttonGroup">
+    <string notr="true">all_syllables</string>
+   </attribute>
+  </widget>
+  <widget class="QPushButton" name="syl_i">
+   <property name="geometry">
+    <rect>
+     <x>79</x>
+     <y>242</y>
+     <width>36</width>
+     <height>36</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normalon>images/syllables/i.png</normalon>
+    </iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>34</width>
+     <height>34</height>
+    </size>
+   </property>
+   <attribute name="buttonGroup">
+    <string notr="true">all_syllables</string>
+   </attribute>
+  </widget>
+  <widget class="QPushButton" name="syl_yyu">
+   <property name="geometry">
+    <rect>
+     <x>164</x>
+     <y>41</y>
+     <width>36</width>
+     <height>36</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normalon>images/syllables/yyu.png</normalon>
+    </iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>34</width>
+     <height>34</height>
+    </size>
+   </property>
+   <attribute name="buttonGroup">
+    <string notr="true">all_syllables</string>
+   </attribute>
+  </widget>
+  <widget class="QPushButton" name="syl_yyo">
+   <property name="geometry">
+    <rect>
+     <x>164</x>
+     <y>81</y>
+     <width>36</width>
+     <height>36</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normalon>images/syllables/yyo.png</normalon>
+    </iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>34</width>
+     <height>34</height>
+    </size>
+   </property>
+   <attribute name="buttonGroup">
+    <string notr="true">all_syllables</string>
+   </attribute>
+  </widget>
+  <widget class="QPushButton" name="syl_yya">
+   <property name="geometry">
+    <rect>
+     <x>147</x>
+     <y>123</y>
+     <width>36</width>
+     <height>36</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normalon>images/syllables/yya.png</normalon>
+    </iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>34</width>
+     <height>34</height>
+    </size>
+   </property>
+   <attribute name="buttonGroup">
+    <string notr="true">all_syllables</string>
+   </attribute>
+  </widget>
+  <widget class="QPushButton" name="syl_yyya">
+   <property name="geometry">
+    <rect>
+     <x>181</x>
+     <y>123</y>
+     <width>36</width>
+     <height>36</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normalon>images/syllables/yyya.png</normalon>
+    </iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>34</width>
+     <height>34</height>
+    </size>
+   </property>
+   <attribute name="buttonGroup">
+    <string notr="true">all_syllables</string>
+   </attribute>
+  </widget>
+  <widget class="QPushButton" name="syl_yye">
+   <property name="geometry">
+    <rect>
+     <x>164</x>
+     <y>163</y>
+     <width>36</width>
+     <height>36</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normalon>images/syllables/yye.png</normalon>
+    </iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>34</width>
+     <height>34</height>
+    </size>
+   </property>
+   <attribute name="buttonGroup">
+    <string notr="true">all_syllables</string>
+   </attribute>
+  </widget>
+  <widget class="QPushButton" name="syl_yyi">
+   <property name="geometry">
+    <rect>
+     <x>164</x>
+     <y>205</y>
+     <width>36</width>
+     <height>36</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normalon>images/syllables/yyi.png</normalon>
+    </iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>34</width>
+     <height>34</height>
+    </size>
+   </property>
+   <attribute name="buttonGroup">
+    <string notr="true">all_syllables</string>
+   </attribute>
+  </widget>
+  <widget class="QPushButton" name="syl_yy">
+   <property name="geometry">
+    <rect>
+     <x>164</x>
+     <y>246</y>
+     <width>36</width>
+     <height>36</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normalon>images/syllables/yy.png</normalon>
+    </iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>34</width>
+     <height>34</height>
+    </size>
+   </property>
+   <attribute name="buttonGroup">
+    <string notr="true">all_syllables</string>
+   </attribute>
+  </widget>
+  <widget class="QPushButton" name="syl_lu">
+   <property name="geometry">
+    <rect>
+     <x>241</x>
+     <y>40</y>
+     <width>41</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normalon>images/syllables/lu.png</normalon>
+    </iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>40</width>
+     <height>40</height>
+    </size>
+   </property>
+   <attribute name="buttonGroup">
+    <string notr="true">all_syllables</string>
+   </attribute>
+  </widget>
+  <widget class="QPushButton" name="syl_lo">
+   <property name="geometry">
+    <rect>
+     <x>241</x>
+     <y>80</y>
+     <width>41</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normalon>images/syllables/lo.png</normalon>
+    </iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>40</width>
+     <height>40</height>
+    </size>
+   </property>
+   <attribute name="buttonGroup">
+    <string notr="true">all_syllables</string>
+   </attribute>
+  </widget>
+  <widget class="QPushButton" name="syl_la">
+   <property name="geometry">
+    <rect>
+     <x>241</x>
+     <y>120</y>
+     <width>41</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normalon>images/syllables/la.png</normalon>
+    </iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>40</width>
+     <height>40</height>
+    </size>
+   </property>
+   <attribute name="buttonGroup">
+    <string notr="true">all_syllables</string>
+   </attribute>
+  </widget>
+  <widget class="QPushButton" name="syl_le">
+   <property name="geometry">
+    <rect>
+     <x>241</x>
+     <y>160</y>
+     <width>41</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normalon>images/syllables/le.png</normalon>
+    </iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>40</width>
+     <height>40</height>
+    </size>
+   </property>
+   <attribute name="buttonGroup">
+    <string notr="true">all_syllables</string>
+   </attribute>
+  </widget>
+  <widget class="QPushButton" name="syl_ly">
+   <property name="geometry">
+    <rect>
+     <x>241</x>
+     <y>200</y>
+     <width>41</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normalon>images/syllables/ly.png</normalon>
+    </iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>40</width>
+     <height>40</height>
+    </size>
+   </property>
+   <attribute name="buttonGroup">
+    <string notr="true">all_syllables</string>
+   </attribute>
+  </widget>
+  <widget class="QPushButton" name="syl_l">
+   <property name="geometry">
+    <rect>
+     <x>241</x>
+     <y>240</y>
+     <width>41</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normalon>images/syllables/l.png</normalon>
+    </iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>40</width>
+     <height>40</height>
+    </size>
+   </property>
+   <attribute name="buttonGroup">
+    <string notr="true">all_syllables</string>
+   </attribute>
+  </widget>
+  <widget class="QPushButton" name="syl_lyu">
+   <property name="geometry">
+    <rect>
+     <x>281</x>
+     <y>44</y>
+     <width>36</width>
+     <height>36</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normalon>images/syllables/lyu.png</normalon>
+    </iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>34</width>
+     <height>34</height>
+    </size>
+   </property>
+   <attribute name="buttonGroup">
+    <string notr="true">all_syllables</string>
+   </attribute>
+  </widget>
+  <widget class="QPushButton" name="syl_lyo">
+   <property name="geometry">
+    <rect>
+     <x>281</x>
+     <y>84</y>
+     <width>36</width>
+     <height>36</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normalon>images/syllables/lyo.png</normalon>
+    </iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>34</width>
+     <height>34</height>
+    </size>
+   </property>
+   <attribute name="buttonGroup">
+    <string notr="true">all_syllables</string>
+   </attribute>
+  </widget>
+  <widget class="QPushButton" name="syl_lya">
+   <property name="geometry">
+    <rect>
+     <x>281</x>
+     <y>124</y>
+     <width>36</width>
+     <height>36</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normalon>images/syllables/lya.png</normalon>
+    </iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>34</width>
+     <height>34</height>
+    </size>
+   </property>
+   <attribute name="buttonGroup">
+    <string notr="true">all_syllables</string>
+   </attribute>
+  </widget>
+  <widget class="QPushButton" name="syl_lye">
+   <property name="geometry">
+    <rect>
+     <x>281</x>
+     <y>164</y>
+     <width>36</width>
+     <height>36</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normalon>images/syllables/lye.png</normalon>
+    </iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>34</width>
+     <height>34</height>
+    </size>
+   </property>
+   <attribute name="buttonGroup">
+    <string notr="true">all_syllables</string>
+   </attribute>
+  </widget>
+  <widget class="QPushButton" name="syl_li">
+   <property name="geometry">
+    <rect>
+     <x>281</x>
+     <y>204</y>
+     <width>36</width>
+     <height>36</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normalon>images/syllables/li.png</normalon>
+    </iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>34</width>
+     <height>34</height>
+    </size>
+   </property>
+   <attribute name="buttonGroup">
+    <string notr="true">all_syllables</string>
+   </attribute>
+  </widget>
+  <widget class="QPushButton" name="syl_l1">
+   <property name="geometry">
+    <rect>
+     <x>280</x>
+     <y>243</y>
+     <width>36</width>
+     <height>36</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normalon>images/syllables/l1.png</normalon>
+    </iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>34</width>
+     <height>34</height>
+    </size>
+   </property>
+   <attribute name="buttonGroup">
+    <string notr="true">all_syllables</string>
+   </attribute>
+  </widget>
+  <widget class="QPushButton" name="syl_m">
+   <property name="geometry">
+    <rect>
+     <x>351</x>
+     <y>238</y>
+     <width>41</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normalon>images/syllables/m.png</normalon>
+    </iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>40</width>
+     <height>40</height>
+    </size>
+   </property>
+   <attribute name="buttonGroup">
+    <string notr="true">all_syllables</string>
+   </attribute>
+  </widget>
+  <widget class="QPushButton" name="syl_mu">
+   <property name="geometry">
+    <rect>
+     <x>351</x>
+     <y>40</y>
+     <width>41</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normalon>images/syllables/mu.png</normalon>
+    </iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>40</width>
+     <height>40</height>
+    </size>
+   </property>
+   <attribute name="buttonGroup">
+    <string notr="true">all_syllables</string>
+   </attribute>
+  </widget>
+  <widget class="QPushButton" name="syl_me">
+   <property name="geometry">
+    <rect>
+     <x>351</x>
+     <y>159</y>
+     <width>41</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normalon>images/syllables/me.png</normalon>
+    </iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>40</width>
+     <height>40</height>
+    </size>
+   </property>
+   <attribute name="buttonGroup">
+    <string notr="true">all_syllables</string>
+   </attribute>
+  </widget>
+  <widget class="QPushButton" name="syl_myo">
+   <property name="geometry">
+    <rect>
+     <x>391</x>
+     <y>84</y>
+     <width>36</width>
+     <height>36</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normalon>images/syllables/myo.png</normalon>
+    </iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>34</width>
+     <height>34</height>
+    </size>
+   </property>
+   <attribute name="buttonGroup">
+    <string notr="true">all_syllables</string>
+   </attribute>
+  </widget>
+  <widget class="QPushButton" name="syl_mo">
+   <property name="geometry">
+    <rect>
+     <x>351</x>
+     <y>80</y>
+     <width>41</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normalon>images/syllables/mo.png</normalon>
+    </iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>40</width>
+     <height>40</height>
+    </size>
+   </property>
+   <attribute name="buttonGroup">
+    <string notr="true">all_syllables</string>
+   </attribute>
+  </widget>
+  <widget class="QPushButton" name="syl_m1">
+   <property name="geometry">
+    <rect>
+     <x>390</x>
+     <y>241</y>
+     <width>36</width>
+     <height>36</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normalon>images/syllables/m1.png</normalon>
+    </iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>34</width>
+     <height>34</height>
+    </size>
+   </property>
+   <attribute name="buttonGroup">
+    <string notr="true">all_syllables</string>
+   </attribute>
+  </widget>
+  <widget class="QPushButton" name="syl_my">
+   <property name="geometry">
+    <rect>
+     <x>351</x>
+     <y>199</y>
+     <width>41</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normalon>images/syllables/my.png</normalon>
+    </iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>40</width>
+     <height>40</height>
+    </size>
+   </property>
+   <attribute name="buttonGroup">
+    <string notr="true">all_syllables</string>
+   </attribute>
+  </widget>
+  <widget class="QPushButton" name="syl_mya">
+   <property name="geometry">
+    <rect>
+     <x>391</x>
+     <y>123</y>
+     <width>36</width>
+     <height>36</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normalon>images/syllables/mya.png</normalon>
+    </iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>34</width>
+     <height>34</height>
+    </size>
+   </property>
+   <attribute name="buttonGroup">
+    <string notr="true">all_syllables</string>
+   </attribute>
+  </widget>
+  <widget class="QPushButton" name="syl_mi">
+   <property name="geometry">
+    <rect>
+     <x>391</x>
+     <y>202</y>
+     <width>36</width>
+     <height>36</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normalon>images/syllables/mi.png</normalon>
+    </iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>34</width>
+     <height>34</height>
+    </size>
+   </property>
+   <attribute name="buttonGroup">
+    <string notr="true">all_syllables</string>
+   </attribute>
+  </widget>
+  <widget class="QPushButton" name="syl_ma">
+   <property name="geometry">
+    <rect>
+     <x>351</x>
+     <y>120</y>
+     <width>41</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normalon>images/syllables/ma.png</normalon>
+    </iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>40</width>
+     <height>40</height>
+    </size>
+   </property>
+   <attribute name="buttonGroup">
+    <string notr="true">all_syllables</string>
+   </attribute>
+  </widget>
+  <widget class="QPushButton" name="syl_mye">
+   <property name="geometry">
+    <rect>
+     <x>391</x>
+     <y>162</y>
+     <width>36</width>
+     <height>36</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normalon>images/syllables/mye.png</normalon>
+    </iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>34</width>
+     <height>34</height>
+    </size>
+   </property>
+   <attribute name="buttonGroup">
+    <string notr="true">all_syllables</string>
+   </attribute>
+  </widget>
+  <widget class="QPushButton" name="syl_myu">
+   <property name="geometry">
+    <rect>
+     <x>391</x>
+     <y>44</y>
+     <width>36</width>
+     <height>36</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normalon>images/syllables/myu.png</normalon>
+    </iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>34</width>
+     <height>34</height>
+    </size>
+   </property>
+   <attribute name="buttonGroup">
+    <string notr="true">all_syllables</string>
+   </attribute>
+  </widget>
+  <widget class="QPushButton" name="syl_no">
+   <property name="geometry">
+    <rect>
+     <x>471</x>
+     <y>79</y>
+     <width>41</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normalon>images/syllables/no.png</normalon>
+    </iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>40</width>
+     <height>40</height>
+    </size>
+   </property>
+   <attribute name="buttonGroup">
+    <string notr="true">all_syllables</string>
+   </attribute>
+  </widget>
+  <widget class="QPushButton" name="syl_nya">
+   <property name="geometry">
+    <rect>
+     <x>511</x>
+     <y>122</y>
+     <width>36</width>
+     <height>36</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normalon>images/syllables/nya.png</normalon>
+    </iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>34</width>
+     <height>34</height>
+    </size>
+   </property>
+   <attribute name="buttonGroup">
+    <string notr="true">all_syllables</string>
+   </attribute>
+  </widget>
+  <widget class="QPushButton" name="syl_n1">
+   <property name="geometry">
+    <rect>
+     <x>510</x>
+     <y>241</y>
+     <width>36</width>
+     <height>36</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normalon>images/syllables/n1.png</normalon>
+    </iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>34</width>
+     <height>34</height>
+    </size>
+   </property>
+   <attribute name="buttonGroup">
+    <string notr="true">all_syllables</string>
+   </attribute>
+  </widget>
+  <widget class="QPushButton" name="syl_nyu">
+   <property name="geometry">
+    <rect>
+     <x>511</x>
+     <y>43</y>
+     <width>36</width>
+     <height>36</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normalon>images/syllables/nyu.png</normalon>
+    </iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>34</width>
+     <height>34</height>
+    </size>
+   </property>
+   <attribute name="buttonGroup">
+    <string notr="true">all_syllables</string>
+   </attribute>
+  </widget>
+  <widget class="QPushButton" name="syl_na">
+   <property name="geometry">
+    <rect>
+     <x>471</x>
+     <y>119</y>
+     <width>41</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normalon>images/syllables/na.png</normalon>
+    </iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>40</width>
+     <height>40</height>
+    </size>
+   </property>
+   <attribute name="buttonGroup">
+    <string notr="true">all_syllables</string>
+   </attribute>
+  </widget>
+  <widget class="QPushButton" name="syl_ni">
+   <property name="geometry">
+    <rect>
+     <x>511</x>
+     <y>202</y>
+     <width>36</width>
+     <height>36</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normalon>images/syllables/ni.png</normalon>
+    </iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>34</width>
+     <height>34</height>
+    </size>
+   </property>
+   <attribute name="buttonGroup">
+    <string notr="true">all_syllables</string>
+   </attribute>
+  </widget>
+  <widget class="QPushButton" name="syl_ny">
+   <property name="geometry">
+    <rect>
+     <x>471</x>
+     <y>199</y>
+     <width>41</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normalon>images/syllables/ny.png</normalon>
+    </iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>40</width>
+     <height>40</height>
+    </size>
+   </property>
+   <attribute name="buttonGroup">
+    <string notr="true">all_syllables</string>
+   </attribute>
+  </widget>
+  <widget class="QPushButton" name="syl_nu">
+   <property name="geometry">
+    <rect>
+     <x>471</x>
+     <y>40</y>
+     <width>41</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normalon>images/syllables/nu.png</normalon>
+    </iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>40</width>
+     <height>40</height>
+    </size>
+   </property>
+   <attribute name="buttonGroup">
+    <string notr="true">all_syllables</string>
+   </attribute>
+  </widget>
+  <widget class="QPushButton" name="syl_ne">
+   <property name="geometry">
+    <rect>
+     <x>471</x>
+     <y>159</y>
+     <width>41</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normalon>images/syllables/ne.png</normalon>
+    </iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>40</width>
+     <height>40</height>
+    </size>
+   </property>
+   <attribute name="buttonGroup">
+    <string notr="true">all_syllables</string>
+   </attribute>
+  </widget>
+  <widget class="QPushButton" name="syl_n">
+   <property name="geometry">
+    <rect>
+     <x>471</x>
+     <y>239</y>
+     <width>41</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normalon>images/syllables/n.png</normalon>
+    </iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>40</width>
+     <height>40</height>
+    </size>
+   </property>
+   <attribute name="buttonGroup">
+    <string notr="true">all_syllables</string>
+   </attribute>
+  </widget>
+  <widget class="QPushButton" name="syl_nye">
+   <property name="geometry">
+    <rect>
+     <x>511</x>
+     <y>161</y>
+     <width>36</width>
+     <height>36</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normalon>images/syllables/nye.png</normalon>
+    </iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>34</width>
+     <height>34</height>
+    </size>
+   </property>
+   <attribute name="buttonGroup">
+    <string notr="true">all_syllables</string>
+   </attribute>
+  </widget>
+  <widget class="QPushButton" name="syl_nyo">
+   <property name="geometry">
+    <rect>
+     <x>511</x>
+     <y>83</y>
+     <width>36</width>
+     <height>36</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normalon>images/syllables/nyo.png</normalon>
+    </iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>34</width>
+     <height>34</height>
+    </size>
+   </property>
+   <attribute name="buttonGroup">
+    <string notr="true">all_syllables</string>
+   </attribute>
+  </widget>
+  <widget class="QPushButton" name="syl_r1">
+   <property name="geometry">
+    <rect>
+     <x>630</x>
+     <y>241</y>
+     <width>36</width>
+     <height>36</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normalon>images/syllables/r1.png</normalon>
+    </iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>34</width>
+     <height>34</height>
+    </size>
+   </property>
+   <attribute name="buttonGroup">
+    <string notr="true">all_syllables</string>
+   </attribute>
+  </widget>
+  <widget class="QPushButton" name="syl_ro">
+   <property name="geometry">
+    <rect>
+     <x>591</x>
+     <y>81</y>
+     <width>41</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normalon>images/syllables/ro.png</normalon>
+    </iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>41</width>
+     <height>41</height>
+    </size>
+   </property>
+   <attribute name="buttonGroup">
+    <string notr="true">all_syllables</string>
+   </attribute>
+  </widget>
+  <widget class="QPushButton" name="syl_ru">
+   <property name="geometry">
+    <rect>
+     <x>591</x>
+     <y>42</y>
+     <width>41</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normalon>images/syllables/ru.png</normalon>
+    </iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>40</width>
+     <height>40</height>
+    </size>
+   </property>
+   <attribute name="buttonGroup">
+    <string notr="true">all_syllables</string>
+   </attribute>
+  </widget>
+  <widget class="QPushButton" name="syl_re">
+   <property name="geometry">
+    <rect>
+     <x>591</x>
+     <y>159</y>
+     <width>41</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normalon>images/syllables/re.png</normalon>
+    </iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>40</width>
+     <height>40</height>
+    </size>
+   </property>
+   <attribute name="buttonGroup">
+    <string notr="true">all_syllables</string>
+   </attribute>
+  </widget>
+  <widget class="QPushButton" name="syl_rya">
+   <property name="geometry">
+    <rect>
+     <x>631</x>
+     <y>123</y>
+     <width>36</width>
+     <height>36</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normalon>images/syllables/rya.png</normalon>
+    </iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>35</width>
+     <height>34</height>
+    </size>
+   </property>
+   <attribute name="buttonGroup">
+    <string notr="true">all_syllables</string>
+   </attribute>
+  </widget>
+  <widget class="QPushButton" name="syl_ryu">
+   <property name="geometry">
+    <rect>
+     <x>631</x>
+     <y>45</y>
+     <width>36</width>
+     <height>36</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normalon>images/syllables/ryu.png</normalon>
+    </iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>34</width>
+     <height>34</height>
+    </size>
+   </property>
+   <attribute name="buttonGroup">
+    <string notr="true">all_syllables</string>
+   </attribute>
+  </widget>
+  <widget class="QPushButton" name="syl_ri">
+   <property name="geometry">
+    <rect>
+     <x>631</x>
+     <y>202</y>
+     <width>36</width>
+     <height>36</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normalon>images/syllables/ri.png</normalon>
+    </iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>35</width>
+     <height>34</height>
+    </size>
+   </property>
+   <attribute name="buttonGroup">
+    <string notr="true">all_syllables</string>
+   </attribute>
+  </widget>
+  <widget class="QPushButton" name="syl_r">
+   <property name="geometry">
+    <rect>
+     <x>591</x>
+     <y>239</y>
+     <width>41</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normalon>images/syllables/r.png</normalon>
+    </iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>40</width>
+     <height>40</height>
+    </size>
+   </property>
+   <attribute name="buttonGroup">
+    <string notr="true">all_syllables</string>
+   </attribute>
+  </widget>
+  <widget class="QPushButton" name="syl_ryo">
+   <property name="geometry">
+    <rect>
+     <x>631</x>
+     <y>84</y>
+     <width>36</width>
+     <height>36</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normalon>images/syllables/ryo.png</normalon>
+    </iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>34</width>
+     <height>34</height>
+    </size>
+   </property>
+   <attribute name="buttonGroup">
+    <string notr="true">all_syllables</string>
+   </attribute>
+  </widget>
+  <widget class="QPushButton" name="syl_ra">
+   <property name="geometry">
+    <rect>
+     <x>591</x>
+     <y>120</y>
+     <width>41</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normalon>images/syllables/ra.png</normalon>
+    </iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>40</width>
+     <height>40</height>
+    </size>
+   </property>
+   <attribute name="buttonGroup">
+    <string notr="true">all_syllables</string>
+   </attribute>
+  </widget>
+  <widget class="QPushButton" name="syl_ry">
+   <property name="geometry">
+    <rect>
+     <x>591</x>
+     <y>199</y>
+     <width>41</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normalon>images/syllables/ry.png</normalon>
+    </iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>40</width>
+     <height>40</height>
+    </size>
+   </property>
+   <attribute name="buttonGroup">
+    <string notr="true">all_syllables</string>
+   </attribute>
+  </widget>
+  <widget class="QPushButton" name="syl_rye">
+   <property name="geometry">
+    <rect>
+     <x>631</x>
+     <y>162</y>
+     <width>36</width>
+     <height>36</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normalon>images/syllables/rye.png</normalon>
+    </iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>34</width>
+     <height>34</height>
+    </size>
+   </property>
+   <attribute name="buttonGroup">
+    <string notr="true">all_syllables</string>
+   </attribute>
+  </widget>
+  <widget class="QPushButton" name="syl_r2">
+   <property name="geometry">
+    <rect>
+     <x>591</x>
+     <y>284</y>
+     <width>41</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normalon>images/syllables/r2.png</normalon>
+    </iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>40</width>
+     <height>42</height>
+    </size>
+   </property>
+   <attribute name="buttonGroup">
+    <string notr="true">all_syllables</string>
+   </attribute>
+  </widget>
+  <widget class="QPushButton" name="syl_n2">
+   <property name="geometry">
+    <rect>
+     <x>471</x>
+     <y>284</y>
+     <width>41</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normalon>images/syllables/n2.png</normalon>
+    </iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>40</width>
+     <height>42</height>
+    </size>
+   </property>
+   <attribute name="buttonGroup">
+    <string notr="true">all_syllables</string>
+   </attribute>
+  </widget>
+  <widget class="QPushButton" name="syl_vu">
+   <property name="geometry">
+    <rect>
+     <x>710</x>
+     <y>42</y>
+     <width>41</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normalon>images/syllables/vu.png</normalon>
+    </iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>40</width>
+     <height>40</height>
+    </size>
+   </property>
+   <attribute name="buttonGroup">
+    <string notr="true">all_syllables</string>
+   </attribute>
+  </widget>
+  <widget class="QPushButton" name="syl_vyu">
+   <property name="geometry">
+    <rect>
+     <x>750</x>
+     <y>45</y>
+     <width>36</width>
+     <height>36</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normalon>images/syllables/vyu.png</normalon>
+    </iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>34</width>
+     <height>34</height>
+    </size>
+   </property>
+   <attribute name="buttonGroup">
+    <string notr="true">all_syllables</string>
+   </attribute>
+  </widget>
+  <widget class="QPushButton" name="syl_v">
+   <property name="geometry">
+    <rect>
+     <x>710</x>
+     <y>239</y>
+     <width>41</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normalon>images/syllables/v.png</normalon>
+    </iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>40</width>
+     <height>40</height>
+    </size>
+   </property>
+   <attribute name="buttonGroup">
+    <string notr="true">all_syllables</string>
+   </attribute>
+  </widget>
+  <widget class="QPushButton" name="syl_v2">
+   <property name="geometry">
+    <rect>
+     <x>710</x>
+     <y>284</y>
+     <width>41</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normalon>images/syllables/v2.png</normalon>
+    </iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>40</width>
+     <height>42</height>
+    </size>
+   </property>
+   <attribute name="buttonGroup">
+    <string notr="true">all_syllables</string>
+   </attribute>
+  </widget>
+  <widget class="QPushButton" name="syl_vi">
+   <property name="geometry">
+    <rect>
+     <x>750</x>
+     <y>203</y>
+     <width>36</width>
+     <height>36</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normalon>images/syllables/vi.png</normalon>
+    </iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>35</width>
+     <height>34</height>
+    </size>
+   </property>
+   <attribute name="buttonGroup">
+    <string notr="true">all_syllables</string>
+   </attribute>
+  </widget>
+  <widget class="QPushButton" name="syl_va">
+   <property name="geometry">
+    <rect>
+     <x>710</x>
+     <y>121</y>
+     <width>41</width>
+     <height>42</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normalon>images/syllables/va.png</normalon>
+    </iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>40</width>
+     <height>40</height>
+    </size>
+   </property>
+   <attribute name="buttonGroup">
+    <string notr="true">all_syllables</string>
+   </attribute>
+  </widget>
+  <widget class="QPushButton" name="syl_vy">
+   <property name="geometry">
+    <rect>
+     <x>710</x>
+     <y>200</y>
+     <width>41</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normalon>images/syllables/vy.png</normalon>
+    </iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>40</width>
+     <height>40</height>
+    </size>
+   </property>
+   <attribute name="buttonGroup">
+    <string notr="true">all_syllables</string>
+   </attribute>
+  </widget>
+  <widget class="QPushButton" name="syl_vye">
+   <property name="geometry">
+    <rect>
+     <x>749</x>
+     <y>163</y>
+     <width>36</width>
+     <height>36</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normalon>images/syllables/vye.png</normalon>
+    </iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>34</width>
+     <height>34</height>
+    </size>
+   </property>
+   <attribute name="buttonGroup">
+    <string notr="true">all_syllables</string>
+   </attribute>
+  </widget>
+  <widget class="QPushButton" name="syl_ve">
+   <property name="geometry">
+    <rect>
+     <x>710</x>
+     <y>161</y>
+     <width>41</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normalon>images/syllables/ve.png</normalon>
+    </iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>40</width>
+     <height>40</height>
+    </size>
+   </property>
+   <attribute name="buttonGroup">
+    <string notr="true">all_syllables</string>
+   </attribute>
+  </widget>
+  <widget class="QPushButton" name="syl_vya">
+   <property name="geometry">
+    <rect>
+     <x>750</x>
+     <y>124</y>
+     <width>36</width>
+     <height>36</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normalon>images/syllables/vya.png</normalon>
+    </iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>35</width>
+     <height>34</height>
+    </size>
+   </property>
+   <attribute name="buttonGroup">
+    <string notr="true">all_syllables</string>
+   </attribute>
+  </widget>
+  <widget class="QPushButton" name="syl_v1">
+   <property name="geometry">
+    <rect>
+     <x>749</x>
+     <y>241</y>
+     <width>36</width>
+     <height>36</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normalon>images/syllables/v1.png</normalon>
+    </iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>34</width>
+     <height>34</height>
+    </size>
+   </property>
+   <attribute name="buttonGroup">
+    <string notr="true">all_syllables</string>
+   </attribute>
+  </widget>
+  <widget class="QPushButton" name="syl_vo">
+   <property name="geometry">
+    <rect>
+     <x>711</x>
+     <y>82</y>
+     <width>41</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normalon>images/syllables/vo.png</normalon>
+    </iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>41</width>
+     <height>41</height>
+    </size>
+   </property>
+   <attribute name="buttonGroup">
+    <string notr="true">all_syllables</string>
+   </attribute>
+  </widget>
+  <widget class="QPushButton" name="syl_vyo">
+   <property name="geometry">
+    <rect>
+     <x>751</x>
+     <y>84</y>
+     <width>36</width>
+     <height>36</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normalon>images/syllables/vyo.png</normalon>
+    </iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>35</width>
+     <height>34</height>
+    </size>
+   </property>
+   <attribute name="buttonGroup">
+    <string notr="true">all_syllables</string>
+   </attribute>
+  </widget>
+  <widget class="QPushButton" name="syl_z2">
+   <property name="geometry">
+    <rect>
+     <x>831</x>
+     <y>288</y>
+     <width>41</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normalon>images/syllables/z2.png</normalon>
+    </iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>40</width>
+     <height>42</height>
+    </size>
+   </property>
+   <attribute name="buttonGroup">
+    <string notr="true">all_syllables</string>
+   </attribute>
+  </widget>
+  <widget class="QPushButton" name="syl_zi">
+   <property name="geometry">
+    <rect>
+     <x>871</x>
+     <y>207</y>
+     <width>36</width>
+     <height>36</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normalon>images/syllables/zi.png</normalon>
+    </iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>35</width>
+     <height>34</height>
+    </size>
+   </property>
+   <attribute name="buttonGroup">
+    <string notr="true">all_syllables</string>
+   </attribute>
+  </widget>
+  <widget class="QPushButton" name="syl_za">
+   <property name="geometry">
+    <rect>
+     <x>831</x>
+     <y>124</y>
+     <width>41</width>
+     <height>42</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normalon>images/syllables/za.png</normalon>
+    </iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>40</width>
+     <height>40</height>
+    </size>
+   </property>
+   <attribute name="buttonGroup">
+    <string notr="true">all_syllables</string>
+   </attribute>
+  </widget>
+  <widget class="QPushButton" name="syl_zye">
+   <property name="geometry">
+    <rect>
+     <x>871</x>
+     <y>166</y>
+     <width>36</width>
+     <height>36</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normalon>images/syllables/zye.png</normalon>
+    </iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>34</width>
+     <height>34</height>
+    </size>
+   </property>
+   <attribute name="buttonGroup">
+    <string notr="true">all_syllables</string>
+   </attribute>
+  </widget>
+  <widget class="QPushButton" name="syl_zo">
+   <property name="geometry">
+    <rect>
+     <x>832</x>
+     <y>85</y>
+     <width>41</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normalon>images/syllables/zo.png</normalon>
+    </iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>41</width>
+     <height>41</height>
+    </size>
+   </property>
+   <attribute name="buttonGroup">
+    <string notr="true">all_syllables</string>
+   </attribute>
+  </widget>
+  <widget class="QPushButton" name="syl_z1">
+   <property name="geometry">
+    <rect>
+     <x>870</x>
+     <y>245</y>
+     <width>36</width>
+     <height>36</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normalon>images/syllables/z1.png</normalon>
+    </iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>34</width>
+     <height>34</height>
+    </size>
+   </property>
+   <attribute name="buttonGroup">
+    <string notr="true">all_syllables</string>
+   </attribute>
+  </widget>
+  <widget class="QPushButton" name="syl_ze">
+   <property name="geometry">
+    <rect>
+     <x>831</x>
+     <y>164</y>
+     <width>41</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normalon>images/syllables/ze.png</normalon>
+    </iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>40</width>
+     <height>40</height>
+    </size>
+   </property>
+   <attribute name="buttonGroup">
+    <string notr="true">all_syllables</string>
+   </attribute>
+  </widget>
+  <widget class="QPushButton" name="syl_zy">
+   <property name="geometry">
+    <rect>
+     <x>831</x>
+     <y>204</y>
+     <width>41</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normalon>images/syllables/zy.png</normalon>
+    </iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>40</width>
+     <height>40</height>
+    </size>
+   </property>
+   <attribute name="buttonGroup">
+    <string notr="true">all_syllables</string>
+   </attribute>
+  </widget>
+  <widget class="QPushButton" name="syl_zyo">
+   <property name="geometry">
+    <rect>
+     <x>872</x>
+     <y>88</y>
+     <width>36</width>
+     <height>36</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normalon>images/syllables/zyo.png</normalon>
+    </iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>35</width>
+     <height>34</height>
+    </size>
+   </property>
+   <attribute name="buttonGroup">
+    <string notr="true">all_syllables</string>
+   </attribute>
+  </widget>
+  <widget class="QPushButton" name="syl_zu">
+   <property name="geometry">
+    <rect>
+     <x>831</x>
+     <y>45</y>
+     <width>41</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normalon>images/syllables/zu.png</normalon>
+    </iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>40</width>
+     <height>40</height>
+    </size>
+   </property>
+   <attribute name="buttonGroup">
+    <string notr="true">all_syllables</string>
+   </attribute>
+  </widget>
+  <widget class="QPushButton" name="syl_zya">
+   <property name="geometry">
+    <rect>
+     <x>871</x>
+     <y>127</y>
+     <width>36</width>
+     <height>36</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normalon>images/syllables/zya.png</normalon>
+    </iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>35</width>
+     <height>34</height>
+    </size>
+   </property>
+   <attribute name="buttonGroup">
+    <string notr="true">all_syllables</string>
+   </attribute>
+  </widget>
+  <widget class="QPushButton" name="syl_zyu">
+   <property name="geometry">
+    <rect>
+     <x>871</x>
+     <y>48</y>
+     <width>36</width>
+     <height>36</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normalon>images/syllables/zyu.png</normalon>
+    </iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>34</width>
+     <height>34</height>
+    </size>
+   </property>
+   <attribute name="buttonGroup">
+    <string notr="true">all_syllables</string>
+   </attribute>
+  </widget>
+  <widget class="QPushButton" name="syl_z">
+   <property name="geometry">
+    <rect>
+     <x>831</x>
+     <y>244</y>
+     <width>41</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normalon>images/syllables/z.png</normalon>
+    </iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>40</width>
+     <height>40</height>
+    </size>
+   </property>
+   <attribute name="buttonGroup">
+    <string notr="true">all_syllables</string>
+   </attribute>
+  </widget>
+  <widget class="QPushButton" name="syl_ba">
+   <property name="geometry">
+    <rect>
+     <x>951</x>
+     <y>124</y>
+     <width>41</width>
+     <height>42</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normalon>images/syllables/ba.png</normalon>
+    </iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>40</width>
+     <height>40</height>
+    </size>
+   </property>
+   <attribute name="buttonGroup">
+    <string notr="true">all_syllables</string>
+   </attribute>
+  </widget>
+  <widget class="QPushButton" name="syl_bye">
+   <property name="geometry">
+    <rect>
+     <x>991</x>
+     <y>166</y>
+     <width>36</width>
+     <height>36</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normalon>images/syllables/bye.png</normalon>
+    </iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>34</width>
+     <height>34</height>
+    </size>
+   </property>
+   <attribute name="buttonGroup">
+    <string notr="true">all_syllables</string>
+   </attribute>
+  </widget>
+  <widget class="QPushButton" name="syl_b1">
+   <property name="geometry">
+    <rect>
+     <x>990</x>
+     <y>245</y>
+     <width>36</width>
+     <height>36</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normalon>images/syllables/b1.png</normalon>
+    </iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>34</width>
+     <height>34</height>
+    </size>
+   </property>
+   <attribute name="buttonGroup">
+    <string notr="true">all_syllables</string>
+   </attribute>
+  </widget>
+  <widget class="QPushButton" name="syl_bya">
+   <property name="geometry">
+    <rect>
+     <x>991</x>
+     <y>127</y>
+     <width>36</width>
+     <height>36</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normalon>images/syllables/bya.png</normalon>
+    </iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>35</width>
+     <height>34</height>
+    </size>
+   </property>
+   <attribute name="buttonGroup">
+    <string notr="true">all_syllables</string>
+   </attribute>
+  </widget>
+  <widget class="QPushButton" name="syl_by">
+   <property name="geometry">
+    <rect>
+     <x>951</x>
+     <y>203</y>
+     <width>41</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normalon>images/syllables/by.png</normalon>
+    </iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>40</width>
+     <height>40</height>
+    </size>
+   </property>
+   <attribute name="buttonGroup">
+    <string notr="true">all_syllables</string>
+   </attribute>
+  </widget>
+  <widget class="QPushButton" name="syl_b">
+   <property name="geometry">
+    <rect>
+     <x>951</x>
+     <y>243</y>
+     <width>41</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normalon>images/syllables/b.png</normalon>
+    </iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>40</width>
+     <height>40</height>
+    </size>
+   </property>
+   <attribute name="buttonGroup">
+    <string notr="true">all_syllables</string>
+   </attribute>
+  </widget>
+  <widget class="QPushButton" name="syl_b2">
+   <property name="geometry">
+    <rect>
+     <x>951</x>
+     <y>288</y>
+     <width>41</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normalon>images/syllables/b2.png</normalon>
+    </iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>40</width>
+     <height>42</height>
+    </size>
+   </property>
+   <attribute name="buttonGroup">
+    <string notr="true">all_syllables</string>
+   </attribute>
+  </widget>
+  <widget class="QPushButton" name="syl_bo">
+   <property name="geometry">
+    <rect>
+     <x>952</x>
+     <y>85</y>
+     <width>41</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normalon>images/syllables/bo.png</normalon>
+    </iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>41</width>
+     <height>41</height>
+    </size>
+   </property>
+   <attribute name="buttonGroup">
+    <string notr="true">all_syllables</string>
+   </attribute>
+  </widget>
+  <widget class="QPushButton" name="syl_bu">
+   <property name="geometry">
+    <rect>
+     <x>951</x>
+     <y>45</y>
+     <width>41</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normalon>images/syllables/bu.png</normalon>
+    </iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>40</width>
+     <height>40</height>
+    </size>
+   </property>
+   <attribute name="buttonGroup">
+    <string notr="true">all_syllables</string>
+   </attribute>
+  </widget>
+  <widget class="QPushButton" name="syl_bi">
+   <property name="geometry">
+    <rect>
+     <x>991</x>
+     <y>207</y>
+     <width>36</width>
+     <height>36</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normalon>images/syllables/bi.png</normalon>
+    </iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>35</width>
+     <height>34</height>
+    </size>
+   </property>
+   <attribute name="buttonGroup">
+    <string notr="true">all_syllables</string>
+   </attribute>
+  </widget>
+  <widget class="QPushButton" name="syl_byo">
+   <property name="geometry">
+    <rect>
+     <x>992</x>
+     <y>88</y>
+     <width>36</width>
+     <height>36</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normalon>images/syllables/byo.png</normalon>
+    </iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>35</width>
+     <height>34</height>
+    </size>
+   </property>
+   <attribute name="buttonGroup">
+    <string notr="true">all_syllables</string>
+   </attribute>
+  </widget>
+  <widget class="QPushButton" name="syl_byu">
+   <property name="geometry">
+    <rect>
+     <x>991</x>
+     <y>48</y>
+     <width>36</width>
+     <height>36</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normalon>images/syllables/byu.png</normalon>
+    </iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>34</width>
+     <height>34</height>
+    </size>
+   </property>
+   <attribute name="buttonGroup">
+    <string notr="true">all_syllables</string>
+   </attribute>
+  </widget>
+  <widget class="QPushButton" name="syl_be">
+   <property name="geometry">
+    <rect>
+     <x>951</x>
+     <y>164</y>
+     <width>41</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normalon>images/syllables/be.png</normalon>
+    </iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>40</width>
+     <height>40</height>
+    </size>
+   </property>
+   <attribute name="buttonGroup">
+    <string notr="true">all_syllables</string>
+   </attribute>
+  </widget>
+  <widget class="QPushButton" name="syl_dyo">
+   <property name="geometry">
+    <rect>
+     <x>1102</x>
+     <y>85</y>
+     <width>36</width>
+     <height>36</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normalon>images/syllables/dyo.png</normalon>
+    </iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>35</width>
+     <height>34</height>
+    </size>
+   </property>
+   <attribute name="buttonGroup">
+    <string notr="true">all_syllables</string>
+   </attribute>
+  </widget>
+  <widget class="QPushButton" name="syl_d">
+   <property name="geometry">
+    <rect>
+     <x>1061</x>
+     <y>240</y>
+     <width>41</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normalon>images/syllables/d.png</normalon>
+    </iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>40</width>
+     <height>40</height>
+    </size>
+   </property>
+   <attribute name="buttonGroup">
+    <string notr="true">all_syllables</string>
+   </attribute>
+  </widget>
+  <widget class="QPushButton" name="syl_dyu">
+   <property name="geometry">
+    <rect>
+     <x>1101</x>
+     <y>45</y>
+     <width>36</width>
+     <height>36</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normalon>images/syllables/dyu.png</normalon>
+    </iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>34</width>
+     <height>34</height>
+    </size>
+   </property>
+   <attribute name="buttonGroup">
+    <string notr="true">all_syllables</string>
+   </attribute>
+  </widget>
+  <widget class="QPushButton" name="syl_di">
+   <property name="geometry">
+    <rect>
+     <x>1101</x>
+     <y>204</y>
+     <width>36</width>
+     <height>36</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normalon>images/syllables/di.png</normalon>
+    </iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>35</width>
+     <height>34</height>
+    </size>
+   </property>
+   <attribute name="buttonGroup">
+    <string notr="true">all_syllables</string>
+   </attribute>
+  </widget>
+  <widget class="QPushButton" name="syl_d1">
+   <property name="geometry">
+    <rect>
+     <x>1100</x>
+     <y>242</y>
+     <width>36</width>
+     <height>36</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normalon>images/syllables/d1.png</normalon>
+    </iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>34</width>
+     <height>34</height>
+    </size>
+   </property>
+   <attribute name="buttonGroup">
+    <string notr="true">all_syllables</string>
+   </attribute>
+  </widget>
+  <widget class="QPushButton" name="syl_de">
+   <property name="geometry">
+    <rect>
+     <x>1061</x>
+     <y>161</y>
+     <width>41</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normalon>images/syllables/de.png</normalon>
+    </iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>40</width>
+     <height>40</height>
+    </size>
+   </property>
+   <attribute name="buttonGroup">
+    <string notr="true">all_syllables</string>
+   </attribute>
+  </widget>
+  <widget class="QPushButton" name="syl_do">
+   <property name="geometry">
+    <rect>
+     <x>1062</x>
+     <y>82</y>
+     <width>41</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normalon>images/syllables/do.png</normalon>
+    </iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>41</width>
+     <height>41</height>
+    </size>
+   </property>
+   <attribute name="buttonGroup">
+    <string notr="true">all_syllables</string>
+   </attribute>
+  </widget>
+  <widget class="QPushButton" name="syl_da">
+   <property name="geometry">
+    <rect>
+     <x>1061</x>
+     <y>121</y>
+     <width>41</width>
+     <height>42</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normalon>images/syllables/da.png</normalon>
+    </iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>40</width>
+     <height>40</height>
+    </size>
+   </property>
+   <attribute name="buttonGroup">
+    <string notr="true">all_syllables</string>
+   </attribute>
+  </widget>
+  <widget class="QPushButton" name="syl_dy">
+   <property name="geometry">
+    <rect>
+     <x>1061</x>
+     <y>200</y>
+     <width>41</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normalon>images/syllables/dy.png</normalon>
+    </iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>40</width>
+     <height>40</height>
+    </size>
+   </property>
+   <attribute name="buttonGroup">
+    <string notr="true">all_syllables</string>
+   </attribute>
+  </widget>
+  <widget class="QPushButton" name="syl_du">
+   <property name="geometry">
+    <rect>
+     <x>1061</x>
+     <y>42</y>
+     <width>41</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normalon>images/syllables/du.png</normalon>
+    </iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>40</width>
+     <height>40</height>
+    </size>
+   </property>
+   <attribute name="buttonGroup">
+    <string notr="true">all_syllables</string>
+   </attribute>
+  </widget>
+  <widget class="QPushButton" name="syl_dye">
+   <property name="geometry">
+    <rect>
+     <x>1101</x>
+     <y>163</y>
+     <width>36</width>
+     <height>36</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normalon>images/syllables/dye.png</normalon>
+    </iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>34</width>
+     <height>34</height>
+    </size>
+   </property>
+   <attribute name="buttonGroup">
+    <string notr="true">all_syllables</string>
+   </attribute>
+  </widget>
+  <widget class="QPushButton" name="syl_d2">
+   <property name="geometry">
+    <rect>
+     <x>1061</x>
+     <y>285</y>
+     <width>41</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normalon>images/syllables/d2.png</normalon>
+    </iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>40</width>
+     <height>42</height>
+    </size>
+   </property>
+   <attribute name="buttonGroup">
+    <string notr="true">all_syllables</string>
+   </attribute>
+  </widget>
+  <widget class="QPushButton" name="syl_dya">
+   <property name="geometry">
+    <rect>
+     <x>1101</x>
+     <y>124</y>
+     <width>36</width>
+     <height>36</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normalon>images/syllables/dya.png</normalon>
+    </iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>35</width>
+     <height>34</height>
+    </size>
+   </property>
+   <attribute name="buttonGroup">
+    <string notr="true">all_syllables</string>
+   </attribute>
+  </widget>
+  <widget class="QPushButton" name="syl_myo_8">
+   <property name="geometry">
+    <rect>
+     <x>1232</x>
+     <y>85</y>
+     <width>36</width>
+     <height>36</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normalon>images/syllables/gyo.png</normalon>
+    </iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>35</width>
+     <height>34</height>
+    </size>
+   </property>
+   <attribute name="buttonGroup">
+    <string notr="true">all_syllables</string>
+   </attribute>
+  </widget>
+  <widget class="QPushButton" name="syl_g">
+   <property name="geometry">
+    <rect>
+     <x>1191</x>
+     <y>240</y>
+     <width>41</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normalon>images/syllables/g.png</normalon>
+    </iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>40</width>
+     <height>40</height>
+    </size>
+   </property>
+   <attribute name="buttonGroup">
+    <string notr="true">all_syllables</string>
+   </attribute>
+  </widget>
+  <widget class="QPushButton" name="syl_myu_8">
+   <property name="geometry">
+    <rect>
+     <x>1231</x>
+     <y>45</y>
+     <width>36</width>
+     <height>36</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normalon>images/syllables/gyu.png</normalon>
+    </iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>34</width>
+     <height>34</height>
+    </size>
+   </property>
+   <attribute name="buttonGroup">
+    <string notr="true">all_syllables</string>
+   </attribute>
+  </widget>
+  <widget class="QPushButton" name="syl_gi">
+   <property name="geometry">
+    <rect>
+     <x>1231</x>
+     <y>204</y>
+     <width>36</width>
+     <height>36</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normalon>images/syllables/gi.png</normalon>
+    </iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>35</width>
+     <height>34</height>
+    </size>
+   </property>
+   <attribute name="buttonGroup">
+    <string notr="true">all_syllables</string>
+   </attribute>
+  </widget>
+  <widget class="QPushButton" name="syl_g1">
+   <property name="geometry">
+    <rect>
+     <x>1230</x>
+     <y>242</y>
+     <width>36</width>
+     <height>36</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normalon>images/syllables/g1.png</normalon>
+    </iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>34</width>
+     <height>34</height>
+    </size>
+   </property>
+   <attribute name="buttonGroup">
+    <string notr="true">all_syllables</string>
+   </attribute>
+  </widget>
+  <widget class="QPushButton" name="syl_ge">
+   <property name="geometry">
+    <rect>
+     <x>1191</x>
+     <y>161</y>
+     <width>41</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normalon>images/syllables/ge.png</normalon>
+    </iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>40</width>
+     <height>40</height>
+    </size>
+   </property>
+   <attribute name="buttonGroup">
+    <string notr="true">all_syllables</string>
+   </attribute>
+  </widget>
+  <widget class="QPushButton" name="syl_go">
+   <property name="geometry">
+    <rect>
+     <x>1192</x>
+     <y>82</y>
+     <width>41</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normalon>images/syllables/go.png</normalon>
+    </iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>41</width>
+     <height>41</height>
+    </size>
+   </property>
+   <attribute name="buttonGroup">
+    <string notr="true">all_syllables</string>
+   </attribute>
+  </widget>
+  <widget class="QPushButton" name="syl_ga">
+   <property name="geometry">
+    <rect>
+     <x>1191</x>
+     <y>121</y>
+     <width>41</width>
+     <height>42</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normalon>images/syllables/ga.png</normalon>
+    </iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>40</width>
+     <height>40</height>
+    </size>
+   </property>
+   <attribute name="buttonGroup">
+    <string notr="true">all_syllables</string>
+   </attribute>
+  </widget>
+  <widget class="QPushButton" name="syl_gy">
+   <property name="geometry">
+    <rect>
+     <x>1191</x>
+     <y>200</y>
+     <width>41</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normalon>images/syllables/gy.png</normalon>
+    </iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>40</width>
+     <height>40</height>
+    </size>
+   </property>
+   <attribute name="buttonGroup">
+    <string notr="true">all_syllables</string>
+   </attribute>
+  </widget>
+  <widget class="QPushButton" name="syl_gu">
+   <property name="geometry">
+    <rect>
+     <x>1191</x>
+     <y>42</y>
+     <width>41</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normalon>images/syllables/gu.png</normalon>
+    </iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>40</width>
+     <height>40</height>
+    </size>
+   </property>
+   <attribute name="buttonGroup">
+    <string notr="true">all_syllables</string>
+   </attribute>
+  </widget>
+  <widget class="QPushButton" name="syl_gye">
+   <property name="geometry">
+    <rect>
+     <x>1231</x>
+     <y>163</y>
+     <width>36</width>
+     <height>36</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normalon>images/syllables/gye.png</normalon>
+    </iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>34</width>
+     <height>34</height>
+    </size>
+   </property>
+   <attribute name="buttonGroup">
+    <string notr="true">all_syllables</string>
+   </attribute>
+  </widget>
+  <widget class="QPushButton" name="syl_mya_8">
+   <property name="geometry">
+    <rect>
+     <x>1231</x>
+     <y>124</y>
+     <width>36</width>
+     <height>36</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normalon>images/syllables/gya.png</normalon>
+    </iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>35</width>
+     <height>34</height>
+    </size>
+   </property>
+   <attribute name="buttonGroup">
+    <string notr="true">all_syllables</string>
+   </attribute>
+  </widget>
+  <widget class="QPushButton" name="syl_zh">
+   <property name="geometry">
+    <rect>
+     <x>1321</x>
+     <y>240</y>
+     <width>41</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normalon>images/syllables/zh.png</normalon>
+    </iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>40</width>
+     <height>40</height>
+    </size>
+   </property>
+   <attribute name="buttonGroup">
+    <string notr="true">all_syllables</string>
+   </attribute>
+  </widget>
+  <widget class="QPushButton" name="syl_zhe">
+   <property name="geometry">
+    <rect>
+     <x>1341</x>
+     <y>161</y>
+     <width>41</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normalon>images/syllables/zhe.png</normalon>
+    </iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>40</width>
+     <height>40</height>
+    </size>
+   </property>
+   <attribute name="buttonGroup">
+    <string notr="true">all_syllables</string>
+   </attribute>
+  </widget>
+  <widget class="QPushButton" name="syl_zhyo">
+   <property name="geometry">
+    <rect>
+     <x>1321</x>
+     <y>82</y>
+     <width>41</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normalon>images/syllables/zhyo.png</normalon>
+    </iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>41</width>
+     <height>41</height>
+    </size>
+   </property>
+   <attribute name="buttonGroup">
+    <string notr="true">all_syllables</string>
+   </attribute>
+  </widget>
+  <widget class="QPushButton" name="syl_zha">
+   <property name="geometry">
+    <rect>
+     <x>1341</x>
+     <y>121</y>
+     <width>41</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normalon>images/syllables/zha.png</normalon>
+    </iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>40</width>
+     <height>40</height>
+    </size>
+   </property>
+   <attribute name="buttonGroup">
+    <string notr="true">all_syllables</string>
+   </attribute>
+  </widget>
+  <widget class="QPushButton" name="syl_zhi">
+   <property name="geometry">
+    <rect>
+     <x>1341</x>
+     <y>200</y>
+     <width>41</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normalon>images/syllables/zhi.png</normalon>
+    </iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>40</width>
+     <height>40</height>
+    </size>
+   </property>
+   <attribute name="buttonGroup">
+    <string notr="true">all_syllables</string>
+   </attribute>
+  </widget>
+  <widget class="QPushButton" name="syl_zhu">
+   <property name="geometry">
+    <rect>
+     <x>1341</x>
+     <y>42</y>
+     <width>41</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normalon>images/syllables/zhu.png</normalon>
+    </iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>40</width>
+     <height>40</height>
+    </size>
+   </property>
+   <attribute name="buttonGroup">
+    <string notr="true">all_syllables</string>
+   </attribute>
+  </widget>
+  <widget class="QPushButton" name="syl_zh2">
+   <property name="geometry">
+    <rect>
+     <x>1341</x>
+     <y>285</y>
+     <width>41</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normalon>images/syllables/zh2.png</normalon>
+    </iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>40</width>
+     <height>40</height>
+    </size>
+   </property>
+   <attribute name="buttonGroup">
+    <string notr="true">all_syllables</string>
+   </attribute>
+  </widget>
+  <widget class="QPushButton" name="syl_zho">
+   <property name="geometry">
+    <rect>
+     <x>1361</x>
+     <y>82</y>
+     <width>41</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normalon>images/syllables/zho.png</normalon>
+    </iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>41</width>
+     <height>41</height>
+    </size>
+   </property>
+   <attribute name="buttonGroup">
+    <string notr="true">all_syllables</string>
+   </attribute>
+  </widget>
+  <widget class="QPushButton" name="syl_zh1">
+   <property name="geometry">
+    <rect>
+     <x>1360</x>
+     <y>240</y>
+     <width>41</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normalon>images/syllables/zh1.png</normalon>
+    </iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>40</width>
+     <height>40</height>
+    </size>
+   </property>
+   <attribute name="buttonGroup">
+    <string notr="true">all_syllables</string>
+   </attribute>
+  </widget>
+  <widget class="QPushButton" name="syl_f1">
+   <property name="geometry">
+    <rect>
+     <x>69</x>
+     <y>641</y>
+     <width>36</width>
+     <height>36</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normalon>images/syllables/f1.png</normalon>
+    </iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>34</width>
+     <height>34</height>
+    </size>
+   </property>
+   <attribute name="buttonGroup">
+    <string notr="true">all_syllables</string>
+   </attribute>
+  </widget>
+  <widget class="QPushButton" name="syl_fya">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>523</y>
+     <width>36</width>
+     <height>36</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normalon>images/syllables/fya.png</normalon>
+    </iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>35</width>
+     <height>34</height>
+    </size>
+   </property>
+   <attribute name="buttonGroup">
+    <string notr="true">all_syllables</string>
+   </attribute>
+  </widget>
+  <widget class="QPushButton" name="syl_fu">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>441</y>
+     <width>41</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normalon>images/syllables/fu.png</normalon>
+    </iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>40</width>
+     <height>40</height>
+    </size>
+   </property>
+   <attribute name="buttonGroup">
+    <string notr="true">all_syllables</string>
+   </attribute>
+  </widget>
+  <widget class="QPushButton" name="syl_fy">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>599</y>
+     <width>41</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normalon>images/syllables/fy.png</normalon>
+    </iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>40</width>
+     <height>40</height>
+    </size>
+   </property>
+   <attribute name="buttonGroup">
+    <string notr="true">all_syllables</string>
+   </attribute>
+  </widget>
+  <widget class="QPushButton" name="syl_fe">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>560</y>
+     <width>41</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normalon>images/syllables/fe.png</normalon>
+    </iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>40</width>
+     <height>40</height>
+    </size>
+   </property>
+   <attribute name="buttonGroup">
+    <string notr="true">all_syllables</string>
+   </attribute>
+  </widget>
+  <widget class="QPushButton" name="syl_fye">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>562</y>
+     <width>36</width>
+     <height>36</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normalon>images/syllables/fye.png</normalon>
+    </iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>34</width>
+     <height>34</height>
+    </size>
+   </property>
+   <attribute name="buttonGroup">
+    <string notr="true">all_syllables</string>
+   </attribute>
+  </widget>
+  <widget class="QPushButton" name="syl_fi">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>603</y>
+     <width>36</width>
+     <height>36</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normalon>images/syllables/fi.png</normalon>
+    </iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>35</width>
+     <height>34</height>
+    </size>
+   </property>
+   <attribute name="buttonGroup">
+    <string notr="true">all_syllables</string>
+   </attribute>
+  </widget>
+  <widget class="QPushButton" name="syl_fyu">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>444</y>
+     <width>36</width>
+     <height>36</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normalon>images/syllables/fyu.png</normalon>
+    </iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>34</width>
+     <height>34</height>
+    </size>
+   </property>
+   <attribute name="buttonGroup">
+    <string notr="true">all_syllables</string>
+   </attribute>
+  </widget>
+  <widget class="QPushButton" name="syl_fo">
+   <property name="geometry">
+    <rect>
+     <x>31</x>
+     <y>481</y>
+     <width>41</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normalon>images/syllables/fo.png</normalon>
+    </iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>41</width>
+     <height>41</height>
+    </size>
+   </property>
+   <attribute name="buttonGroup">
+    <string notr="true">all_syllables</string>
+   </attribute>
+  </widget>
+  <widget class="QPushButton" name="syl_f">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>639</y>
+     <width>41</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normalon>images/syllables/f.png</normalon>
+    </iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>40</width>
+     <height>40</height>
+    </size>
+   </property>
+   <attribute name="buttonGroup">
+    <string notr="true">all_syllables</string>
+   </attribute>
+  </widget>
+  <widget class="QPushButton" name="syl_fyo">
+   <property name="geometry">
+    <rect>
+     <x>71</x>
+     <y>484</y>
+     <width>36</width>
+     <height>36</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normalon>images/syllables/fyo.png</normalon>
+    </iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>35</width>
+     <height>34</height>
+    </size>
+   </property>
+   <attribute name="buttonGroup">
+    <string notr="true">all_syllables</string>
+   </attribute>
+  </widget>
+  <widget class="QPushButton" name="syl_fa">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>520</y>
+     <width>41</width>
+     <height>42</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normalon>images/syllables/fa.png</normalon>
+    </iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>40</width>
+     <height>40</height>
+    </size>
+   </property>
+   <attribute name="buttonGroup">
+    <string notr="true">all_syllables</string>
+   </attribute>
+  </widget>
+  <widget class="QPushButton" name="syl_sa">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>520</y>
+     <width>41</width>
+     <height>42</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normalon>images/syllables/sa.png</normalon>
+    </iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>40</width>
+     <height>40</height>
+    </size>
+   </property>
+   <attribute name="buttonGroup">
+    <string notr="true">all_syllables</string>
+   </attribute>
+  </widget>
+  <widget class="QPushButton" name="syl_sye">
+   <property name="geometry">
+    <rect>
+     <x>190</x>
+     <y>562</y>
+     <width>36</width>
+     <height>36</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normalon>images/syllables/sye.png</normalon>
+    </iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>34</width>
+     <height>34</height>
+    </size>
+   </property>
+   <attribute name="buttonGroup">
+    <string notr="true">all_syllables</string>
+   </attribute>
+  </widget>
+  <widget class="QPushButton" name="syl_s1">
+   <property name="geometry">
+    <rect>
+     <x>189</x>
+     <y>641</y>
+     <width>36</width>
+     <height>36</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normalon>images/syllables/s1.png</normalon>
+    </iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>34</width>
+     <height>34</height>
+    </size>
+   </property>
+   <attribute name="buttonGroup">
+    <string notr="true">all_syllables</string>
+   </attribute>
+  </widget>
+  <widget class="QPushButton" name="syl_sya">
+   <property name="geometry">
+    <rect>
+     <x>190</x>
+     <y>523</y>
+     <width>36</width>
+     <height>36</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normalon>images/syllables/sya.png</normalon>
+    </iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>35</width>
+     <height>34</height>
+    </size>
+   </property>
+   <attribute name="buttonGroup">
+    <string notr="true">all_syllables</string>
+   </attribute>
+  </widget>
+  <widget class="QPushButton" name="syl_sy">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>600</y>
+     <width>41</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normalon>images/syllables/sy.png</normalon>
+    </iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>40</width>
+     <height>40</height>
+    </size>
+   </property>
+   <attribute name="buttonGroup">
+    <string notr="true">all_syllables</string>
+   </attribute>
+  </widget>
+  <widget class="QPushButton" name="syl_s">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>640</y>
+     <width>41</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normalon>images/syllables/s.png</normalon>
+    </iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>40</width>
+     <height>40</height>
+    </size>
+   </property>
+   <attribute name="buttonGroup">
+    <string notr="true">all_syllables</string>
+   </attribute>
+  </widget>
+  <widget class="QPushButton" name="syl_s2">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>684</y>
+     <width>41</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normalon>images/syllables/s2.png</normalon>
+    </iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>40</width>
+     <height>42</height>
+    </size>
+   </property>
+   <attribute name="buttonGroup">
+    <string notr="true">all_syllables</string>
+   </attribute>
+  </widget>
+  <widget class="QPushButton" name="syl_so">
+   <property name="geometry">
+    <rect>
+     <x>151</x>
+     <y>481</y>
+     <width>41</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normalon>images/syllables/so.png</normalon>
+    </iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>41</width>
+     <height>41</height>
+    </size>
+   </property>
+   <attribute name="buttonGroup">
+    <string notr="true">all_syllables</string>
+   </attribute>
+  </widget>
+  <widget class="QPushButton" name="syl_su">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>441</y>
+     <width>41</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normalon>images/syllables/su.png</normalon>
+    </iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>40</width>
+     <height>40</height>
+    </size>
+   </property>
+   <attribute name="buttonGroup">
+    <string notr="true">all_syllables</string>
+   </attribute>
+  </widget>
+  <widget class="QPushButton" name="syl_si">
+   <property name="geometry">
+    <rect>
+     <x>190</x>
+     <y>603</y>
+     <width>36</width>
+     <height>36</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normalon>images/syllables/si.png</normalon>
+    </iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>35</width>
+     <height>34</height>
+    </size>
+   </property>
+   <attribute name="buttonGroup">
+    <string notr="true">all_syllables</string>
+   </attribute>
+  </widget>
+  <widget class="QPushButton" name="syl_syo">
+   <property name="geometry">
+    <rect>
+     <x>191</x>
+     <y>484</y>
+     <width>36</width>
+     <height>36</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normalon>images/syllables/syo.png</normalon>
+    </iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>35</width>
+     <height>34</height>
+    </size>
+   </property>
+   <attribute name="buttonGroup">
+    <string notr="true">all_syllables</string>
+   </attribute>
+  </widget>
+  <widget class="QPushButton" name="syl_syu">
+   <property name="geometry">
+    <rect>
+     <x>190</x>
+     <y>444</y>
+     <width>36</width>
+     <height>36</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normalon>images/syllables/syu.png</normalon>
+    </iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>34</width>
+     <height>34</height>
+    </size>
+   </property>
+   <attribute name="buttonGroup">
+    <string notr="true">all_syllables</string>
+   </attribute>
+  </widget>
+  <widget class="QPushButton" name="syl_se">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>560</y>
+     <width>41</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normalon>images/syllables/se.png</normalon>
+    </iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>40</width>
+     <height>40</height>
+    </size>
+   </property>
+   <attribute name="buttonGroup">
+    <string notr="true">all_syllables</string>
+   </attribute>
+  </widget>
+  <widget class="QPushButton" name="syl_p">
+   <property name="geometry">
+    <rect>
+     <x>289</x>
+     <y>639</y>
+     <width>41</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normalon>images/syllables/p.png</normalon>
+    </iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>40</width>
+     <height>40</height>
+    </size>
+   </property>
+   <attribute name="buttonGroup">
+    <string notr="true">all_syllables</string>
+   </attribute>
+  </widget>
+  <widget class="QPushButton" name="syl_pyo">
+   <property name="geometry">
+    <rect>
+     <x>330</x>
+     <y>483</y>
+     <width>36</width>
+     <height>36</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normalon>images/syllables/pyo.png</normalon>
+    </iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>35</width>
+     <height>34</height>
+    </size>
+   </property>
+   <attribute name="buttonGroup">
+    <string notr="true">all_syllables</string>
+   </attribute>
+  </widget>
+  <widget class="QPushButton" name="syl_pe">
+   <property name="geometry">
+    <rect>
+     <x>289</x>
+     <y>559</y>
+     <width>41</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normalon>images/syllables/pe.png</normalon>
+    </iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>40</width>
+     <height>40</height>
+    </size>
+   </property>
+   <attribute name="buttonGroup">
+    <string notr="true">all_syllables</string>
+   </attribute>
+  </widget>
+  <widget class="QPushButton" name="syl_pyu">
+   <property name="geometry">
+    <rect>
+     <x>329</x>
+     <y>443</y>
+     <width>36</width>
+     <height>36</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normalon>images/syllables/pyu.png</normalon>
+    </iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>34</width>
+     <height>34</height>
+    </size>
+   </property>
+   <attribute name="buttonGroup">
+    <string notr="true">all_syllables</string>
+   </attribute>
+  </widget>
+  <widget class="QPushButton" name="syl_pi">
+   <property name="geometry">
+    <rect>
+     <x>329</x>
+     <y>602</y>
+     <width>36</width>
+     <height>36</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normalon>images/syllables/pi.png</normalon>
+    </iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>35</width>
+     <height>34</height>
+    </size>
+   </property>
+   <attribute name="buttonGroup">
+    <string notr="true">all_syllables</string>
+   </attribute>
+  </widget>
+  <widget class="QPushButton" name="syl_py">
+   <property name="geometry">
+    <rect>
+     <x>289</x>
+     <y>599</y>
+     <width>41</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normalon>images/syllables/py.png</normalon>
+    </iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>40</width>
+     <height>40</height>
+    </size>
+   </property>
+   <attribute name="buttonGroup">
+    <string notr="true">all_syllables</string>
+   </attribute>
+  </widget>
+  <widget class="QPushButton" name="syl_pu">
+   <property name="geometry">
+    <rect>
+     <x>289</x>
+     <y>440</y>
+     <width>41</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normalon>images/syllables/pu.png</normalon>
+    </iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>40</width>
+     <height>40</height>
+    </size>
+   </property>
+   <attribute name="buttonGroup">
+    <string notr="true">all_syllables</string>
+   </attribute>
+  </widget>
+  <widget class="QPushButton" name="syl_pya">
+   <property name="geometry">
+    <rect>
+     <x>329</x>
+     <y>522</y>
+     <width>36</width>
+     <height>36</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normalon>images/syllables/pya.png</normalon>
+    </iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>35</width>
+     <height>34</height>
+    </size>
+   </property>
+   <attribute name="buttonGroup">
+    <string notr="true">all_syllables</string>
+   </attribute>
+  </widget>
+  <widget class="QPushButton" name="syl_pye">
+   <property name="geometry">
+    <rect>
+     <x>329</x>
+     <y>561</y>
+     <width>36</width>
+     <height>36</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normalon>images/syllables/pye.png</normalon>
+    </iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>34</width>
+     <height>34</height>
+    </size>
+   </property>
+   <attribute name="buttonGroup">
+    <string notr="true">all_syllables</string>
+   </attribute>
+  </widget>
+  <widget class="QPushButton" name="syl_p1">
+   <property name="geometry">
+    <rect>
+     <x>328</x>
+     <y>640</y>
+     <width>36</width>
+     <height>36</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normalon>images/syllables/p1.png</normalon>
+    </iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>34</width>
+     <height>34</height>
+    </size>
+   </property>
+   <attribute name="buttonGroup">
+    <string notr="true">all_syllables</string>
+   </attribute>
+  </widget>
+  <widget class="QPushButton" name="syl_pa">
+   <property name="geometry">
+    <rect>
+     <x>289</x>
+     <y>519</y>
+     <width>41</width>
+     <height>42</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normalon>images/syllables/pa.png</normalon>
+    </iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>40</width>
+     <height>40</height>
+    </size>
+   </property>
+   <attribute name="buttonGroup">
+    <string notr="true">all_syllables</string>
+   </attribute>
+  </widget>
+  <widget class="QPushButton" name="syl_po">
+   <property name="geometry">
+    <rect>
+     <x>290</x>
+     <y>480</y>
+     <width>41</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normalon>images/syllables/po.png</normalon>
+    </iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>41</width>
+     <height>41</height>
+    </size>
+   </property>
+   <attribute name="buttonGroup">
+    <string notr="true">all_syllables</string>
+   </attribute>
+  </widget>
+  <widget class="QPushButton" name="syl_t">
+   <property name="geometry">
+    <rect>
+     <x>429</x>
+     <y>639</y>
+     <width>41</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normalon>images/syllables/t.png</normalon>
+    </iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>40</width>
+     <height>40</height>
+    </size>
+   </property>
+   <attribute name="buttonGroup">
+    <string notr="true">all_syllables</string>
+   </attribute>
+  </widget>
+  <widget class="QPushButton" name="syl_tyo">
+   <property name="geometry">
+    <rect>
+     <x>470</x>
+     <y>483</y>
+     <width>36</width>
+     <height>36</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normalon>images/syllables/tyo.png</normalon>
+    </iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>35</width>
+     <height>34</height>
+    </size>
+   </property>
+   <attribute name="buttonGroup">
+    <string notr="true">all_syllables</string>
+   </attribute>
+  </widget>
+  <widget class="QPushButton" name="syl_te">
+   <property name="geometry">
+    <rect>
+     <x>429</x>
+     <y>559</y>
+     <width>41</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normalon>images/syllables/te.png</normalon>
+    </iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>40</width>
+     <height>40</height>
+    </size>
+   </property>
+   <attribute name="buttonGroup">
+    <string notr="true">all_syllables</string>
+   </attribute>
+  </widget>
+  <widget class="QPushButton" name="syl_tyu">
+   <property name="geometry">
+    <rect>
+     <x>469</x>
+     <y>443</y>
+     <width>36</width>
+     <height>36</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normalon>images/syllables/tyu.png</normalon>
+    </iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>34</width>
+     <height>34</height>
+    </size>
+   </property>
+   <attribute name="buttonGroup">
+    <string notr="true">all_syllables</string>
+   </attribute>
+  </widget>
+  <widget class="QPushButton" name="syl_ti">
+   <property name="geometry">
+    <rect>
+     <x>469</x>
+     <y>602</y>
+     <width>36</width>
+     <height>36</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normalon>images/syllables/ti.png</normalon>
+    </iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>35</width>
+     <height>34</height>
+    </size>
+   </property>
+   <attribute name="buttonGroup">
+    <string notr="true">all_syllables</string>
+   </attribute>
+  </widget>
+  <widget class="QPushButton" name="syl_ty">
+   <property name="geometry">
+    <rect>
+     <x>429</x>
+     <y>599</y>
+     <width>41</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normalon>images/syllables/ty.png</normalon>
+    </iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>40</width>
+     <height>40</height>
+    </size>
+   </property>
+   <attribute name="buttonGroup">
+    <string notr="true">all_syllables</string>
+   </attribute>
+  </widget>
+  <widget class="QPushButton" name="syl_tu">
+   <property name="geometry">
+    <rect>
+     <x>429</x>
+     <y>440</y>
+     <width>41</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normalon>images/syllables/tu.png</normalon>
+    </iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>40</width>
+     <height>40</height>
+    </size>
+   </property>
+   <attribute name="buttonGroup">
+    <string notr="true">all_syllables</string>
+   </attribute>
+  </widget>
+  <widget class="QPushButton" name="syl_tya">
+   <property name="geometry">
+    <rect>
+     <x>469</x>
+     <y>522</y>
+     <width>36</width>
+     <height>36</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normalon>images/syllables/tya.png</normalon>
+    </iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>35</width>
+     <height>34</height>
+    </size>
+   </property>
+   <attribute name="buttonGroup">
+    <string notr="true">all_syllables</string>
+   </attribute>
+  </widget>
+  <widget class="QPushButton" name="syl_tye">
+   <property name="geometry">
+    <rect>
+     <x>469</x>
+     <y>561</y>
+     <width>36</width>
+     <height>36</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normalon>images/syllables/tye.png</normalon>
+    </iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>34</width>
+     <height>34</height>
+    </size>
+   </property>
+   <attribute name="buttonGroup">
+    <string notr="true">all_syllables</string>
+   </attribute>
+  </widget>
+  <widget class="QPushButton" name="syl_t2">
+   <property name="geometry">
+    <rect>
+     <x>429</x>
+     <y>683</y>
+     <width>41</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normalon>images/syllables/t2.png</normalon>
+    </iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>40</width>
+     <height>42</height>
+    </size>
+   </property>
+   <attribute name="buttonGroup">
+    <string notr="true">all_syllables</string>
+   </attribute>
+  </widget>
+  <widget class="QPushButton" name="syl_t1">
+   <property name="geometry">
+    <rect>
+     <x>468</x>
+     <y>640</y>
+     <width>36</width>
+     <height>36</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normalon>images/syllables/t1.png</normalon>
+    </iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>34</width>
+     <height>34</height>
+    </size>
+   </property>
+   <attribute name="buttonGroup">
+    <string notr="true">all_syllables</string>
+   </attribute>
+  </widget>
+  <widget class="QPushButton" name="syl_ta">
+   <property name="geometry">
+    <rect>
+     <x>429</x>
+     <y>519</y>
+     <width>41</width>
+     <height>42</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normalon>images/syllables/ta.png</normalon>
+    </iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>40</width>
+     <height>40</height>
+    </size>
+   </property>
+   <attribute name="buttonGroup">
+    <string notr="true">all_syllables</string>
+   </attribute>
+  </widget>
+  <widget class="QPushButton" name="syl_to">
+   <property name="geometry">
+    <rect>
+     <x>430</x>
+     <y>480</y>
+     <width>41</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normalon>images/syllables/to.png</normalon>
+    </iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>41</width>
+     <height>41</height>
+    </size>
+   </property>
+   <attribute name="buttonGroup">
+    <string notr="true">all_syllables</string>
+   </attribute>
+  </widget>
+  <widget class="QPushButton" name="syl_hu">
+   <property name="geometry">
+    <rect>
+     <x>751</x>
+     <y>440</y>
+     <width>41</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normalon>images/syllables/hu.png</normalon>
+    </iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>40</width>
+     <height>40</height>
+    </size>
+   </property>
+   <attribute name="buttonGroup">
+    <string notr="true">all_syllables</string>
+   </attribute>
+  </widget>
+  <widget class="QPushButton" name="syl_hyo">
+   <property name="geometry">
+    <rect>
+     <x>792</x>
+     <y>483</y>
+     <width>36</width>
+     <height>36</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normalon>images/syllables/hyo.png</normalon>
+    </iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>35</width>
+     <height>34</height>
+    </size>
+   </property>
+   <attribute name="buttonGroup">
+    <string notr="true">all_syllables</string>
+   </attribute>
+  </widget>
+  <widget class="QPushButton" name="syl_ha">
+   <property name="geometry">
+    <rect>
+     <x>751</x>
+     <y>519</y>
+     <width>41</width>
+     <height>42</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normalon>images/syllables/ha.png</normalon>
+    </iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>40</width>
+     <height>40</height>
+    </size>
+   </property>
+   <attribute name="buttonGroup">
+    <string notr="true">all_syllables</string>
+   </attribute>
+  </widget>
+  <widget class="QPushButton" name="syl_ho">
+   <property name="geometry">
+    <rect>
+     <x>752</x>
+     <y>480</y>
+     <width>41</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normalon>images/syllables/ho.png</normalon>
+    </iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>41</width>
+     <height>41</height>
+    </size>
+   </property>
+   <attribute name="buttonGroup">
+    <string notr="true">all_syllables</string>
+   </attribute>
+  </widget>
+  <widget class="QPushButton" name="syl_ka">
+   <property name="geometry">
+    <rect>
+     <x>590</x>
+     <y>516</y>
+     <width>41</width>
+     <height>42</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normalon>images/syllables/ka.png</normalon>
+    </iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>40</width>
+     <height>40</height>
+    </size>
+   </property>
+   <attribute name="buttonGroup">
+    <string notr="true">all_syllables</string>
+   </attribute>
+  </widget>
+  <widget class="QPushButton" name="syl_ki">
+   <property name="geometry">
+    <rect>
+     <x>630</x>
+     <y>599</y>
+     <width>36</width>
+     <height>36</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normalon>images/syllables/ki.png</normalon>
+    </iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>35</width>
+     <height>34</height>
+    </size>
+   </property>
+   <attribute name="buttonGroup">
+    <string notr="true">all_syllables</string>
+   </attribute>
+  </widget>
+  <widget class="QPushButton" name="syl_he">
+   <property name="geometry">
+    <rect>
+     <x>751</x>
+     <y>559</y>
+     <width>41</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normalon>images/syllables/he.png</normalon>
+    </iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>40</width>
+     <height>40</height>
+    </size>
+   </property>
+   <attribute name="buttonGroup">
+    <string notr="true">all_syllables</string>
+   </attribute>
+  </widget>
+  <widget class="QPushButton" name="syl_hye">
+   <property name="geometry">
+    <rect>
+     <x>791</x>
+     <y>561</y>
+     <width>36</width>
+     <height>36</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normalon>images/syllables/hye.png</normalon>
+    </iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>34</width>
+     <height>34</height>
+    </size>
+   </property>
+   <attribute name="buttonGroup">
+    <string notr="true">all_syllables</string>
+   </attribute>
+  </widget>
+  <widget class="QPushButton" name="syl_h2">
+   <property name="geometry">
+    <rect>
+     <x>751</x>
+     <y>683</y>
+     <width>41</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normalon>images/syllables/h2.png</normalon>
+    </iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>40</width>
+     <height>42</height>
+    </size>
+   </property>
+   <attribute name="buttonGroup">
+    <string notr="true">all_syllables</string>
+   </attribute>
+  </widget>
+  <widget class="QPushButton" name="syl_hya">
+   <property name="geometry">
+    <rect>
+     <x>791</x>
+     <y>522</y>
+     <width>36</width>
+     <height>36</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normalon>images/syllables/hya.png</normalon>
+    </iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>35</width>
+     <height>34</height>
+    </size>
+   </property>
+   <attribute name="buttonGroup">
+    <string notr="true">all_syllables</string>
+   </attribute>
+  </widget>
+  <widget class="QPushButton" name="syl_hi">
+   <property name="geometry">
+    <rect>
+     <x>791</x>
+     <y>602</y>
+     <width>36</width>
+     <height>36</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normalon>images/syllables/hi.png</normalon>
+    </iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>35</width>
+     <height>34</height>
+    </size>
+   </property>
+   <attribute name="buttonGroup">
+    <string notr="true">all_syllables</string>
+   </attribute>
+  </widget>
+  <widget class="QPushButton" name="syl_ke">
+   <property name="geometry">
+    <rect>
+     <x>590</x>
+     <y>556</y>
+     <width>41</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normalon>images/syllables/ke.png</normalon>
+    </iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>40</width>
+     <height>40</height>
+    </size>
+   </property>
+   <attribute name="buttonGroup">
+    <string notr="true">all_syllables</string>
+   </attribute>
+  </widget>
+  <widget class="QPushButton" name="syl_kye">
+   <property name="geometry">
+    <rect>
+     <x>630</x>
+     <y>558</y>
+     <width>36</width>
+     <height>36</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normalon>images/syllables/kye.png</normalon>
+    </iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>34</width>
+     <height>34</height>
+    </size>
+   </property>
+   <attribute name="buttonGroup">
+    <string notr="true">all_syllables</string>
+   </attribute>
+  </widget>
+  <widget class="QPushButton" name="syl_ky">
+   <property name="geometry">
+    <rect>
+     <x>590</x>
+     <y>596</y>
+     <width>41</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normalon>images/syllables/ky.png</normalon>
+    </iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>40</width>
+     <height>40</height>
+    </size>
+   </property>
+   <attribute name="buttonGroup">
+    <string notr="true">all_syllables</string>
+   </attribute>
+  </widget>
+  <widget class="QPushButton" name="syl_ko">
+   <property name="geometry">
+    <rect>
+     <x>591</x>
+     <y>477</y>
+     <width>41</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normalon>images/syllables/ko.png</normalon>
+    </iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>41</width>
+     <height>41</height>
+    </size>
+   </property>
+   <attribute name="buttonGroup">
+    <string notr="true">all_syllables</string>
+   </attribute>
+  </widget>
+  <widget class="QPushButton" name="syl_hyu">
+   <property name="geometry">
+    <rect>
+     <x>791</x>
+     <y>443</y>
+     <width>36</width>
+     <height>36</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normalon>images/syllables/hyu.png</normalon>
+    </iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>34</width>
+     <height>34</height>
+    </size>
+   </property>
+   <attribute name="buttonGroup">
+    <string notr="true">all_syllables</string>
+   </attribute>
+  </widget>
+  <widget class="QPushButton" name="syl_k1">
+   <property name="geometry">
+    <rect>
+     <x>629</x>
+     <y>637</y>
+     <width>36</width>
+     <height>36</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normalon>images/syllables/k1.png</normalon>
+    </iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>34</width>
+     <height>34</height>
+    </size>
+   </property>
+   <attribute name="buttonGroup">
+    <string notr="true">all_syllables</string>
+   </attribute>
+  </widget>
+  <widget class="QPushButton" name="syl_h">
+   <property name="geometry">
+    <rect>
+     <x>751</x>
+     <y>639</y>
+     <width>41</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normalon>images/syllables/h.png</normalon>
+    </iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>40</width>
+     <height>40</height>
+    </size>
+   </property>
+   <attribute name="buttonGroup">
+    <string notr="true">all_syllables</string>
+   </attribute>
+  </widget>
+  <widget class="QPushButton" name="syl_kyo">
+   <property name="geometry">
+    <rect>
+     <x>631</x>
+     <y>480</y>
+     <width>36</width>
+     <height>36</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normalon>images/syllables/kyo.png</normalon>
+    </iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>35</width>
+     <height>34</height>
+    </size>
+   </property>
+   <attribute name="buttonGroup">
+    <string notr="true">all_syllables</string>
+   </attribute>
+  </widget>
+  <widget class="QPushButton" name="syl_ku">
+   <property name="geometry">
+    <rect>
+     <x>590</x>
+     <y>437</y>
+     <width>41</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normalon>images/syllables/ku.png</normalon>
+    </iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>40</width>
+     <height>40</height>
+    </size>
+   </property>
+   <attribute name="buttonGroup">
+    <string notr="true">all_syllables</string>
+   </attribute>
+  </widget>
+  <widget class="QPushButton" name="syl_k">
+   <property name="geometry">
+    <rect>
+     <x>590</x>
+     <y>636</y>
+     <width>41</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normalon>images/syllables/k.png</normalon>
+    </iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>40</width>
+     <height>40</height>
+    </size>
+   </property>
+   <attribute name="buttonGroup">
+    <string notr="true">all_syllables</string>
+   </attribute>
+  </widget>
+  <widget class="QPushButton" name="syl_kya">
+   <property name="geometry">
+    <rect>
+     <x>630</x>
+     <y>519</y>
+     <width>36</width>
+     <height>36</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normalon>images/syllables/kya.png</normalon>
+    </iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>35</width>
+     <height>34</height>
+    </size>
+   </property>
+   <attribute name="buttonGroup">
+    <string notr="true">all_syllables</string>
+   </attribute>
+  </widget>
+  <widget class="QPushButton" name="syl_kyu">
+   <property name="geometry">
+    <rect>
+     <x>630</x>
+     <y>440</y>
+     <width>36</width>
+     <height>36</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normalon>images/syllables/kyu.png</normalon>
+    </iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>34</width>
+     <height>34</height>
+    </size>
+   </property>
+   <attribute name="buttonGroup">
+    <string notr="true">all_syllables</string>
+   </attribute>
+  </widget>
+  <widget class="QPushButton" name="syl_hy">
+   <property name="geometry">
+    <rect>
+     <x>751</x>
+     <y>599</y>
+     <width>41</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normalon>images/syllables/hy.png</normalon>
+    </iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>40</width>
+     <height>40</height>
+    </size>
+   </property>
+   <attribute name="buttonGroup">
+    <string notr="true">all_syllables</string>
+   </attribute>
+  </widget>
+  <widget class="QPushButton" name="syl_h1">
+   <property name="geometry">
+    <rect>
+     <x>790</x>
+     <y>640</y>
+     <width>36</width>
+     <height>36</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normalon>images/syllables/h1.png</normalon>
+    </iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>34</width>
+     <height>34</height>
+    </size>
+   </property>
+   <attribute name="buttonGroup">
+    <string notr="true">all_syllables</string>
+   </attribute>
+  </widget>
+  <widget class="QPushButton" name="syl_she">
+   <property name="geometry">
+    <rect>
+     <x>910</x>
+     <y>559</y>
+     <width>41</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normalon>images/syllables/she.png</normalon>
+    </iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>40</width>
+     <height>40</height>
+    </size>
+   </property>
+   <attribute name="buttonGroup">
+    <string notr="true">all_syllables</string>
+   </attribute>
+  </widget>
+  <widget class="QPushButton" name="syl_sha">
+   <property name="geometry">
+    <rect>
+     <x>910</x>
+     <y>519</y>
+     <width>41</width>
+     <height>42</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normalon>images/syllables/sha.png</normalon>
+    </iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>40</width>
+     <height>40</height>
+    </size>
+   </property>
+   <attribute name="buttonGroup">
+    <string notr="true">all_syllables</string>
+   </attribute>
+  </widget>
+  <widget class="QPushButton" name="syl_sh">
+   <property name="geometry">
+    <rect>
+     <x>890</x>
+     <y>638</y>
+     <width>41</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normalon>images/syllables/sh.png</normalon>
+    </iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>40</width>
+     <height>40</height>
+    </size>
+   </property>
+   <attribute name="buttonGroup">
+    <string notr="true">all_syllables</string>
+   </attribute>
+  </widget>
+  <widget class="QPushButton" name="syl_shu">
+   <property name="geometry">
+    <rect>
+     <x>910</x>
+     <y>440</y>
+     <width>41</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normalon>images/syllables/shu.png</normalon>
+    </iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>40</width>
+     <height>40</height>
+    </size>
+   </property>
+   <attribute name="buttonGroup">
+    <string notr="true">all_syllables</string>
+   </attribute>
+  </widget>
+  <widget class="QPushButton" name="syl_shyo">
+   <property name="geometry">
+    <rect>
+     <x>890</x>
+     <y>480</y>
+     <width>41</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normalon>images/syllables/shyo.png</normalon>
+    </iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>40</width>
+     <height>40</height>
+    </size>
+   </property>
+   <attribute name="buttonGroup">
+    <string notr="true">all_syllables</string>
+   </attribute>
+  </widget>
+  <widget class="QPushButton" name="syl_sh1">
+   <property name="geometry">
+    <rect>
+     <x>929</x>
+     <y>638</y>
+     <width>41</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normalon>images/syllables/sh1.png</normalon>
+    </iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>40</width>
+     <height>40</height>
+    </size>
+   </property>
+   <attribute name="buttonGroup">
+    <string notr="true">all_syllables</string>
+   </attribute>
+  </widget>
+  <widget class="QPushButton" name="syl_shi">
+   <property name="geometry">
+    <rect>
+     <x>910</x>
+     <y>598</y>
+     <width>41</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normalon>images/syllables/shi.png</normalon>
+    </iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>40</width>
+     <height>40</height>
+    </size>
+   </property>
+   <attribute name="buttonGroup">
+    <string notr="true">all_syllables</string>
+   </attribute>
+  </widget>
+  <widget class="QPushButton" name="syl_sho">
+   <property name="geometry">
+    <rect>
+     <x>931</x>
+     <y>480</y>
+     <width>41</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normalon>images/syllables/sho.png</normalon>
+    </iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>40</width>
+     <height>40</height>
+    </size>
+   </property>
+   <attribute name="buttonGroup">
+    <string notr="true">all_syllables</string>
+   </attribute>
+  </widget>
+  <widget class="QPushButton" name="syl_tse">
+   <property name="geometry">
+    <rect>
+     <x>1060</x>
+     <y>559</y>
+     <width>41</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normalon>images/syllables/tse.png</normalon>
+    </iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>40</width>
+     <height>40</height>
+    </size>
+   </property>
+   <attribute name="buttonGroup">
+    <string notr="true">all_syllables</string>
+   </attribute>
+  </widget>
+  <widget class="QPushButton" name="syl_tsa">
+   <property name="geometry">
+    <rect>
+     <x>1060</x>
+     <y>519</y>
+     <width>41</width>
+     <height>42</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normalon>images/syllables/tsa.png</normalon>
+    </iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>40</width>
+     <height>40</height>
+    </size>
+   </property>
+   <attribute name="buttonGroup">
+    <string notr="true">all_syllables</string>
+   </attribute>
+  </widget>
+  <widget class="QPushButton" name="syl_tsu">
+   <property name="geometry">
+    <rect>
+     <x>1060</x>
+     <y>440</y>
+     <width>41</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normalon>images/syllables/tsu.png</normalon>
+    </iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>40</width>
+     <height>40</height>
+    </size>
+   </property>
+   <attribute name="buttonGroup">
+    <string notr="true">all_syllables</string>
+   </attribute>
+  </widget>
+  <widget class="QPushButton" name="syl_tsy">
+   <property name="geometry">
+    <rect>
+     <x>1080</x>
+     <y>599</y>
+     <width>41</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normalon>images/syllables/tsy.png</normalon>
+    </iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>40</width>
+     <height>40</height>
+    </size>
+   </property>
+   <attribute name="buttonGroup">
+    <string notr="true">all_syllables</string>
+   </attribute>
+  </widget>
+  <widget class="QPushButton" name="syl_ts">
+   <property name="geometry">
+    <rect>
+     <x>1060</x>
+     <y>639</y>
+     <width>41</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normalon>images/syllables/ts.png</normalon>
+    </iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>40</width>
+     <height>40</height>
+    </size>
+   </property>
+   <attribute name="buttonGroup">
+    <string notr="true">all_syllables</string>
+   </attribute>
+  </widget>
+  <widget class="QPushButton" name="syl_tso">
+   <property name="geometry">
+    <rect>
+     <x>1061</x>
+     <y>480</y>
+     <width>41</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normalon>images/syllables/tso.png</normalon>
+    </iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>40</width>
+     <height>40</height>
+    </size>
+   </property>
+   <attribute name="buttonGroup">
+    <string notr="true">all_syllables</string>
+   </attribute>
+  </widget>
+  <widget class="QPushButton" name="syl_cha">
+   <property name="geometry">
+    <rect>
+     <x>1220</x>
+     <y>520</y>
+     <width>36</width>
+     <height>36</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normalon>images/syllables/cha.png</normalon>
+    </iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>34</width>
+     <height>34</height>
+    </size>
+   </property>
+   <attribute name="buttonGroup">
+    <string notr="true">all_syllables</string>
+   </attribute>
+  </widget>
+  <widget class="QPushButton" name="syl_chi">
+   <property name="geometry">
+    <rect>
+     <x>1220</x>
+     <y>602</y>
+     <width>36</width>
+     <height>36</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normalon>images/syllables/chi.png</normalon>
+    </iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>34</width>
+     <height>34</height>
+    </size>
+   </property>
+   <attribute name="buttonGroup">
+    <string notr="true">all_syllables</string>
+   </attribute>
+  </widget>
+  <widget class="QPushButton" name="syl_chu">
+   <property name="geometry">
+    <rect>
+     <x>1220</x>
+     <y>438</y>
+     <width>36</width>
+     <height>36</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normalon>images/syllables/chu.png</normalon>
+    </iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>34</width>
+     <height>34</height>
+    </size>
+   </property>
+   <attribute name="buttonGroup">
+    <string notr="true">all_syllables</string>
+   </attribute>
+  </widget>
+  <widget class="QPushButton" name="syl_chyo">
+   <property name="geometry">
+    <rect>
+     <x>1200</x>
+     <y>480</y>
+     <width>36</width>
+     <height>36</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normalon>images/syllables/chyo.png</normalon>
+    </iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>34</width>
+     <height>34</height>
+    </size>
+   </property>
+   <attribute name="buttonGroup">
+    <string notr="true">all_syllables</string>
+   </attribute>
+  </widget>
+  <widget class="QPushButton" name="syl_cho">
+   <property name="geometry">
+    <rect>
+     <x>1234</x>
+     <y>480</y>
+     <width>36</width>
+     <height>36</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normalon>images/syllables/cho.png</normalon>
+    </iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>34</width>
+     <height>34</height>
+    </size>
+   </property>
+   <attribute name="buttonGroup">
+    <string notr="true">all_syllables</string>
+   </attribute>
+  </widget>
+  <widget class="QPushButton" name="syl_che">
+   <property name="geometry">
+    <rect>
+     <x>1220</x>
+     <y>560</y>
+     <width>36</width>
+     <height>36</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normalon>images/syllables/che.png</normalon>
+    </iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>34</width>
+     <height>34</height>
+    </size>
+   </property>
+   <attribute name="buttonGroup">
+    <string notr="true">all_syllables</string>
+   </attribute>
+  </widget>
+  <widget class="QPushButton" name="syl_tsi">
+   <property name="geometry">
+    <rect>
+     <x>1040</x>
+     <y>599</y>
+     <width>41</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normalon>images/syllables/tsi.png</normalon>
+    </iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>40</width>
+     <height>40</height>
+    </size>
+   </property>
+   <attribute name="buttonGroup">
+    <string notr="true">all_syllables</string>
+   </attribute>
+  </widget>
+  <widget class="QPushButton" name="syl_ch">
+   <property name="geometry">
+    <rect>
+     <x>1203</x>
+     <y>643</y>
+     <width>36</width>
+     <height>36</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normalon>images/syllables/ch.png</normalon>
+    </iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>34</width>
+     <height>34</height>
+    </size>
+   </property>
+   <attribute name="buttonGroup">
+    <string notr="true">all_syllables</string>
+   </attribute>
+  </widget>
+  <widget class="QPushButton" name="syl_ch1">
+   <property name="geometry">
+    <rect>
+     <x>1237</x>
+     <y>643</y>
+     <width>36</width>
+     <height>36</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normalon>images/syllables/ch1.png</normalon>
+    </iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>34</width>
+     <height>34</height>
+    </size>
+   </property>
+   <attribute name="buttonGroup">
+    <string notr="true">all_syllables</string>
+   </attribute>
+  </widget>
+  <widget class="QPushButton" name="syl_shch1">
+   <property name="geometry">
+    <rect>
+     <x>1363</x>
+     <y>643</y>
+     <width>36</width>
+     <height>36</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normalon>images/syllables/shch1.png</normalon>
+    </iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>34</width>
+     <height>34</height>
+    </size>
+   </property>
+   <attribute name="buttonGroup">
+    <string notr="true">all_syllables</string>
+   </attribute>
+  </widget>
+  <widget class="QPushButton" name="syl_shchyo">
+   <property name="geometry">
+    <rect>
+     <x>1326</x>
+     <y>480</y>
+     <width>36</width>
+     <height>36</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normalon>images/syllables/shchyo.png</normalon>
+    </iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>34</width>
+     <height>34</height>
+    </size>
+   </property>
+   <attribute name="buttonGroup">
+    <string notr="true">all_syllables</string>
+   </attribute>
+  </widget>
+  <widget class="QPushButton" name="syl_shchi">
+   <property name="geometry">
+    <rect>
+     <x>1346</x>
+     <y>602</y>
+     <width>36</width>
+     <height>36</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normalon>images/syllables/shchi.png</normalon>
+    </iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>34</width>
+     <height>34</height>
+    </size>
+   </property>
+   <attribute name="buttonGroup">
+    <string notr="true">all_syllables</string>
+   </attribute>
+  </widget>
+  <widget class="QPushButton" name="syl_shche">
+   <property name="geometry">
+    <rect>
+     <x>1346</x>
+     <y>560</y>
+     <width>36</width>
+     <height>36</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normalon>images/syllables/shche.png</normalon>
+    </iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>34</width>
+     <height>34</height>
+    </size>
+   </property>
+   <attribute name="buttonGroup">
+    <string notr="true">all_syllables</string>
+   </attribute>
+  </widget>
+  <widget class="QPushButton" name="syl_shchu">
+   <property name="geometry">
+    <rect>
+     <x>1346</x>
+     <y>438</y>
+     <width>36</width>
+     <height>36</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normalon>images/syllables/shchu.png</normalon>
+    </iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>34</width>
+     <height>34</height>
+    </size>
+   </property>
+   <attribute name="buttonGroup">
+    <string notr="true">all_syllables</string>
+   </attribute>
+  </widget>
+  <widget class="QPushButton" name="syl_shch">
+   <property name="geometry">
+    <rect>
+     <x>1329</x>
+     <y>643</y>
+     <width>36</width>
+     <height>36</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normalon>images/syllables/shch.png</normalon>
+    </iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>34</width>
+     <height>34</height>
+    </size>
+   </property>
+   <attribute name="buttonGroup">
+    <string notr="true">all_syllables</string>
+   </attribute>
+  </widget>
+  <widget class="QPushButton" name="syl_shcha">
+   <property name="geometry">
+    <rect>
+     <x>1346</x>
+     <y>520</y>
+     <width>36</width>
+     <height>36</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normalon>images/syllables/shcha.png</normalon>
+    </iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>34</width>
+     <height>34</height>
+    </size>
+   </property>
+   <attribute name="buttonGroup">
+    <string notr="true">all_syllables</string>
+   </attribute>
+  </widget>
+  <widget class="QPushButton" name="syl_shcho">
+   <property name="geometry">
+    <rect>
+     <x>1360</x>
+     <y>480</y>
+     <width>36</width>
+     <height>36</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normalon>images/syllables/shcho.png</normalon>
+    </iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>34</width>
+     <height>34</height>
+    </size>
+   </property>
+   <attribute name="buttonGroup">
+    <string notr="true">all_syllables</string>
+   </attribute>
+  </widget>
+  <widget class="QPushButton" name="btn_menu">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>71</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normalon>images/menu.png</normalon>
+    </iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>20</width>
+     <height>20</height>
+    </size>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+ <buttongroups>
+  <buttongroup name="all_syllables"/>
+ </buttongroups>
+</ui>
